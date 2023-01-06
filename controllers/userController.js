@@ -442,7 +442,7 @@ const loadCart = async (req, res) => {
         empty: true,
       });
     } else {
-      res.render('Cart', {
+      res.render('cart', {
         isLoggedin,
         id: userSession.userId,
         cartProducts: completeUser.cart,
