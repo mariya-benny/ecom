@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang=en prefix="og: http://ogp.me/ns#" class=no-js>
+<head>
+<meta charset=UTF-8>
+<link hreflang=en href="https://sitechecker.pro/custom-404-page/" rel=alternate /><link hreflang=de href="https://sitechecker.pro/de/custom-404-page/" rel=alternate /><link hreflang=fr href="https://sitechecker.pro/fr/custom-404-page/" rel=alternate /><link hreflang=it href="https://sitechecker.pro/it/custom-404-page/" rel=alternate /><link hreflang=nl href="https://sitechecker.pro/nl/custom-404-page/" rel=alternate /><link hreflang=es href="https://sitechecker.pro/es/custom-404-page/" rel=alternate /><link hreflang=no href="https://sitechecker.pro/no/custom-404-page/" rel=alternate /><link hreflang=pt href="https://sitechecker.pro/pt/custom-404-page/" rel=alternate /><link hreflang=sv href="https://sitechecker.pro/sv/custom-404-page/" rel=alternate /><link hreflang=tr href="https://sitechecker.pro/tr/custom-404-page/" rel=alternate /><link hreflang=pl href="https://sitechecker.pro/pl/custom-404-page/" rel=alternate /><link hreflang=ja href="https://sitechecker.pro/ja/custom-404-page/" rel=alternate /><link hreflang=ru href="https://sitechecker.pro/ru/custom-404-page/" rel=alternate /><link hreflang=x-default href="https://sitechecker.pro/custom-404-page/" rel=alternate />
+<script>window.dataLayer=window.dataLayer||[];document.addEventListener("DOMContentLoaded",function(){window.dataLayer.push({'visitorExistingCustomer':localStorage.getItem('visitorExistingCustomer'),'customerId':localStorage.getItem('customerId'),'customerMembershipStatus':localStorage.getItem('customerMembershipStatus'),'customerLifetimeOrders':localStorage.getItem('customerLifetimeOrders'),'customerLifetimeValue':localStorage.getItem('customerLifetimeValue'),'visitorCohortYear':localStorage.getItem('visitorCohortYear'),'visitorCohortDay':localStorage.getItem('visitorCohortDay'),'visitorCohortWeek':localStorage.getItem('visitorCohortWeek'),'visitorCohortMonth':localStorage.getItem('visitorCohortMonth'),'visitorFirstLandingPage':localStorage.getItem('visitorFirstLandingPage'),'customerFirstOrderDate':localStorage.getItem('customerFirstOrderDate'),'customerExperimentCombination':localStorage.getItem('customerExperimentCombination'),});});</script>
+<meta name=google-site-verification content=eQF_wkzvhKYn757NRtDGzu-1PMBkEEsflHZs3QMHu_s />
+<meta name=msvalidate.01 content=0FD73A58AA195EF7A0EC234993CBDA1E />
+<meta name=yandex-verification content=e0624a52482ea478 />
+<style>.async-hide{opacity:0!important}</style>
+<script>let lighthouse=/lighthouse/.test(navigator.userAgent.toLowerCase());if(!lighthouse){loadGTM();}function loadGTM(){(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-N2SCB2J':true});(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-N2SCB2J');setTimeout(function(){let customer_experiment_combination=getCookie('exp_ga_way')?JSON.parse(getCookie('exp_ga_way')):[],TrackingID=ga.getAll()[0].get('trackingId')?ga.getAll()[0].get('trackingId'):'UA-82230026-1';if(gaData&&gaData[TrackingID]&&gaData[TrackingID].experiments){for(let experiment in gaData[TrackingID].experiments){let id=experiment;let variant=gaData[TrackingID].experiments[id];if(!customer_experiment_combination.find(k=>k.id===id&&k.variant===variant)){customer_experiment_combination.push({id,variant});}}setCookie('exp_ga_way',JSON.stringify(customer_experiment_combination),7);}},1500);}</script>
+<title>
+How To Create a Custom 404 Page With Your Own Design? </title>
+<link rel=icon type="image/svg+xml" sizes=any href="https://sitechecker.pro/wp-content/themes/sitechecker/favicons/safari-pinned-tab.svg">
+<link rel=apple-touch-icon sizes=180x180 href="https://sitechecker.pro/wp-content/themes/sitechecker/favicons/apple-touch-icon-180x180.png">
+<link rel=icon type="image/png" sizes=32x32 href="https://sitechecker.pro/wp-content/themes/sitechecker/favicons/favicon-32x32.png">
+<link rel=icon type="image/png" sizes=16x16 href="https://sitechecker.pro/wp-content/themes/sitechecker/favicons/favicon-16x16.png">
+<link rel=manifest href="https://sitechecker.pro/wp-content/themes/sitechecker/favicons/site.webmanifest">
+<link rel="shortcut icon" href="https://sitechecker.pro/wp-content/themes/sitechecker/favicons/favicon.ico" type="image/vnd.microsoft.icon"/>
+<meta name=msapplication-config content="https://sitechecker.pro/wp-content/themes/sitechecker/favicons/browserconfig.xml"/>
+<meta name=theme-color content="#ffffff">
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<meta name=robots content="index,follow"/>
+<script>function wp_ajax(action,data,successCallback,errorCallback)
+{let request=new XMLHttpRequest();request.open('POST','/wp-admin/admin-ajax.php',true);request.setRequestHeader('Content-Type','application/x-www-form-urlencoded;');request.onload=function(){if(this.status>=200&&this.status<400){successCallback(this.response);}else{errorCallback(this.response);}};request.onerror=function(data){errorCallback(data);};data['action']=action;let params=[];for(let key in data){if(data.hasOwnProperty(key)){params.push(key+'='+encodeURIComponent(data[key]));}}
+request.send(params.join('&'));}
+wp_ajax('get_user_data',[],function(response){let userData=JSON.parse(response);localStorage.setItem("sitechecker_user",JSON.stringify(userData));document.getElementsByTagName('body')[0].dataset.user_login=userData.logged_in;setAnalyticsData();if(userData.logged_in){localStorage.setItem('visitorExistingCustomer',true);}
+document.dispatchEvent(new CustomEvent('sc_update_user'))},function(){});let user=JSON.parse(localStorage.getItem('sitechecker_user'));let USERID;document.addEventListener("DOMContentLoaded",function(){setAnalyticsData();});function setAnalyticsData(){let user=JSON.parse(localStorage.getItem('sitechecker_user'))??{};let changeFormatExpCombination=function(experimentCombination){let customerExperimentCombination=[];for(let i in experimentCombination){let exp=experimentCombination[i];customerExperimentCombination.push(exp.id+':'+exp.variant);}
+customerExperimentCombination.join(',');return customerExperimentCombination;};localStorage.setItem('customerId',user.ID!==undefined?user.ID:null);localStorage.setItem('userEmail',user.email!==undefined?user.email:null);localStorage.setItem('user_plan_expired',user.userPlanExpired!==undefined?user.userPlanExpired:'not_expired');localStorage.setItem('customerMembershipStatus',user.tariff!==undefined?user.tariff:null);localStorage.setItem('customerLifetimeOrders',user.customerLifetimeOrders!==undefined?user.customerLifetimeOrders:null);localStorage.setItem('customerLifetimeValue',user.customerLifetimeValue!==undefined?user.customerLifetimeValue:null);localStorage.setItem('visitorCohortYear',user.visitorCohortYear!==undefined?user.visitorCohortYear:null);localStorage.setItem('visitorCohortMonth',user.visitorCohortMonth!==undefined?user.visitorCohortMonth:null);localStorage.setItem('visitorCohortWeek',user.visitorCohortWeek!==undefined?user.visitorCohortWeek:null);localStorage.setItem('visitorCohortDay',user.visitorCohortDay!==undefined?user.visitorCohortDay:null);localStorage.setItem('visitorFirstLandingPage',user.visitorFirstLandingPage!==undefined?user.visitorFirstLandingPage:null);localStorage.setItem('customerFirstOrderDate',user.customerFirstOrderDate!==undefined?user.customerFirstOrderDate:null);localStorage.setItem('customerExperimentCombination',user.customerExperimentCombination!==undefined?changeFormatExpCombination(user.customerExperimentCombination):null);USERID=user.ID;if(user.registerEvent!==undefined&&user.registerEvent){window.dataLayer=window.dataLayer||[];window.dataLayer.push({"event":"autoEvent","eventCategory":"Sign up for free"});}
+if(user.loginEvent!==undefined&&user.loginEvent){window.dataLayer=window.dataLayer||[];window.dataLayer.push({"event":"autoEvent","eventCategory":"Login"});}}</script> <style>body[data-user_login="true"] .element__logged_out,body[data-user_login="false"] .element__logged_in{display:none;!important}</style>
+<script type="text/javascript">function theChampLoadEvent(e){var t=window.onload;if(typeof window.onload!="function"){window.onload=e}else{window.onload=function(){t();e()}}}</script>
+<script type="text/javascript">var theChampDefaultLang='en',theChampCloseIconPath='https://sitechecker.pro/wp-content/plugins/super-socializer/images/close.png';</script>
+<script>var theChampSiteUrl='https://sitechecker.pro',theChampVerified=0,theChampEmailPopup=0;</script>
+<script>var theChampLoadingImgPath='https://sitechecker.pro/wp-content/plugins/super-socializer/images/ajax_loader.gif';var theChampAjaxUrl='https://sitechecker.pro/wp-admin/admin-ajax.php';var theChampRedirectionUrl='https://sitechecker.pro/custom-404-page/';var theChampRegRedirectionUrl='https://sitechecker.pro/custom-404-page/';</script>
+<script>var theChampFBKey='196200308451081',theChampSameTabLogin='0',theChampVerified=0;var theChampAjaxUrl='https://sitechecker.pro/wp-admin/admin-ajax.php';var theChampPopupTitle='';var theChampEmailPopup=0;var theChampEmailAjaxUrl='https://sitechecker.pro/wp-admin/admin-ajax.php';var theChampEmailPopupTitle='';var theChampEmailPopupErrorMsg='';var theChampEmailPopupUniqueId='';var theChampEmailPopupVerifyMessage='';var theChampSteamAuthUrl="";var theChampTwitterRedirect='https%3A%2F%2Fsitechecker.pro%2Fcustom-404-page%2F';var heateorMSEnabled=0;var theChampTwitterAuthUrl=theChampSiteUrl+"?SuperSocializerAuth=Twitter&super_socializer_redirect_to="+theChampTwitterRedirect;var theChampFacebookAuthUrl=theChampSiteUrl+"?SuperSocializerAuth=Facebook&super_socializer_redirect_to="+theChampTwitterRedirect;var theChampGoogleAuthUrl=theChampSiteUrl+"?SuperSocializerAuth=Google&super_socializer_redirect_to="+theChampTwitterRedirect;var theChampVkontakteAuthUrl=theChampSiteUrl+"?SuperSocializerAuth=Vkontakte&super_socializer_redirect_to="+theChampTwitterRedirect;var theChampLinkedinAuthUrl=theChampSiteUrl+"?SuperSocializerAuth=Linkedin&super_socializer_redirect_to="+theChampTwitterRedirect;</script>
+<style type="text/css">.the_champ_horizontal_sharing .theChampSharing{color:#fff;border-width:0;border-style:solid;border-color:transparent}.the_champ_horizontal_sharing .theChampTCBackground{color:#666}.the_champ_horizontal_sharing .theChampSharing:hover{border-color:transparent}.the_champ_vertical_sharing .theChampSharing{color:#fff;border-width:0;border-style:solid;border-color:transparent}.the_champ_vertical_sharing .theChampTCBackground{color:#666}.the_champ_vertical_sharing .theChampSharing:hover{border-color:transparent}</style>
+<meta name=description content="Create a custom 404 webpage manually or use plugins such as WordPress. Tell visitors what went wrong and add redirect links, search bars, CTA."/>
+<link rel=canonical href="https://sitechecker.pro/custom-404-page/"/>
+<meta property=og:locale content=en_US />
+<meta property=og:type content=article />
+<meta property=og:title content="Comment créer une page 404 personnalisée avec votre propre design ?"/>
+<meta property=og:description content="Create a custom 404 webpage manually or use plugins such as WordPress. Tell visitors what went wrong and add redirect links, search bars, CTA."/>
+<meta property=og:url content="https://sitechecker.pro/custom-404-page/"/>
+<meta property=og:site_name content=Sitechecker />
+<meta property=article:author content="https://www.facebook.com/iryna.berdetska/"/>
+<meta property=article:section content="Technical SEO"/>
+<meta property=og:image content="https://sitechecker.pro/wp-content/uploads/2017/12/404.png"/>
+<meta property=og:image:secure_url content="https://sitechecker.pro/wp-content/uploads/2017/12/404.png"/>
+<meta property=og:image:width content=1429 />
+<meta property=og:image:height content=750 />
+<meta name=twitter:card content=summary />
+<meta name=twitter:description content="Create a custom 404 webpage manually or use plugins such as WordPress. Tell visitors what went wrong and add redirect links, search bars, CTA."/>
+<meta name=twitter:title content="Comment créer une page 404 personnalisée avec votre propre design ?"/>
+<meta name=twitter:image content="https://sitechecker.pro/wp-content/uploads/2017/12/404.png"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/sitechecker.pro\/","name":"Sitechecker","potentialAction":{"@type":"SearchAction","target":"https:\/\/sitechecker.pro\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/sitechecker.pro\/custom-404-page\/","sameAs":[],"@id":"#organization","name":"Sitechecker","logo":"https:\/\/sitechecker.pro\/wp-content\/uploads\/2019\/06\/sitechecker-logo-new.png"}</script>
+<link rel=dns-prefetch href='//accounts.google.com'/>
+<link rel=dns-prefetch href='//s.w.org'/>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}</style>
+<link rel=stylesheet id=critical-style-pages-css href='https://sitechecker.pro/wp-content/themes/sitechecker/out/styles/critical-style.min.css?ver=1671716224' media=all />
+<script type='text/javascript' src='https://sitechecker.pro/wp-content/themes/sitechecker/js/jquery-3.4.1.min.js?ver=3.4.1' id=jquery-js></script>
+<link rel="https://api.w.org/" href="https://sitechecker.pro/wp-json/"/><link rel=alternate type="application/json" href="https://sitechecker.pro/wp-json/wp/v2/pages/17316"/><link rel=alternate type="application/json+oembed" href="https://sitechecker.pro/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsitechecker.pro%2Fcustom-404-page%2F"/>
+<link rel=alternate type="text/xml+oembed" href="https://sitechecker.pro/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsitechecker.pro%2Fcustom-404-page%2F&#038;format=xml"/>
+<meta name=generator content="qTranslate-XT 3.7.2"/>
+<script>const SEMSCALE_GRAPHQL_URL='https://sitechecker.pro/app/api/graphql';const SEMSCALE_APP_URL='https://sitechecker.pro/app';const HOME_URL='https://sitechecker.pro';const AJAX_URL='https://sitechecker.pro/wp-admin/admin-ajax.php';const PROTECTION_FIELD_NAME='f4xDur6SBquTACQg';const SITE_ENV='prod';const API_HOST=(SITE_ENV!==undefined&&SITE_ENV==='prod')?'sitechecker.pro':'test.sitechecker.pro';</script>
+<style type="text/css" id=wp-custom-css>.header__popup{position:fixed!important}</style>
+</head>
+<body data-user_login=false class="page-template page-template-pages page-template-pages-php page page-id-17316 pmpro-body-has-access jak-stworzyc-niestandardowa-strone-404-z-wlasnym-projektem">
+<a href="https://sitechecker.pro/sitechecker-stands-with-ukraine/#support" target=_blank class="banner-app-ua element__logged_out">Support Ukraine</a>
+<header class=header-change>
+<div class="header blog-page-header">
+<div class=wrapper>
+<a href="https://sitechecker.pro/" class=header__logo>
+<span class=sr-only>Website SEO checker & Audit tool</span>
+<script data-pagespeed-no-defer>(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/ngx_pagespeed_beacon','http://sitechecker.pro/custom-404-page/','_Ab_jJDRNY',true,false,'Bz2OXkaYO10');</script><img width=160 height=60 src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/logo-stop-war-safe-ukraine.svg" alt="sitechecker.pro logo" loading=lazy data-pagespeed-url-hash=2220124794 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+</a>
+<div class=header__menu-mobile>
+<div class=mobile__close>
+<span></span>
+<span></span>
+</div>
+<div class=header__menu>
+<ul>
+<li class="menu-item-has-children sub-menu-btn">
+<span class=menu-item-name>Platform<div class=menu-arrow></div></span>
+<div class="sub-menu products head__submenu">
+<a href="https://sitechecker.pro/website-crawler/">
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/menu-product-icon-1.svg" alt="website health checker icon" loading=lazy data-pagespeed-url-hash=2936327192 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<div class=products__description>
+<p>Website Crawler</p>
+<span>Crawl the website for technical issues</span>
+</div>
+</a>
+<a href="https://sitechecker.pro/website-monitoring/">
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/menu-product-icon-2.svg" alt="website monitoring tool icon" loading=lazy data-pagespeed-url-hash=3230827113 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<div class=products__description>
+<p>Site Monitoring</p>
+<span>Track website changes critical for SEO</span>
+</div>
+</a>
+<a href="https://sitechecker.pro/rank-tracker/">
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/menu-product-icon-3.svg" alt="website rank tracker icon" loading=lazy data-pagespeed-url-hash=3525327034 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<div class=products__description>
+<p>Rank Tracker</p>
+<span>Track website positions by keywords</span>
+</div>
+</a>
+<a href="https://sitechecker.pro/backlinks-tracker/">
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/menu-product-icon-4.svg" alt="website backlink tracker icon" loading=lazy data-pagespeed-url-hash=3819826955 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<div class=products__description>
+<p>Backlink Tracker</p>
+<span>Track backlinks you have built or found</span>
+</div>
+</a>
+<a href="https://sitechecker.pro/seo-chrome-extension/">
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/menu-product-icon-5.svg" alt="sitechecker chrome extension icon" loading=lazy data-pagespeed-url-hash=4114326876 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<div class=products__description>
+<p>SEO Chrome Extension</p>
+<span>Chrome plugin for fast on-page checks</span>
+</div>
+</a>
+<a href="https://sitechecker.pro/on-page-seo-checker/">
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/menu-product-icon-6.svg" alt="On-Page SEO Checker icon" loading=lazy data-pagespeed-url-hash=113859501 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<div class=products__description>
+<p>On-Page SEO Checker</p>
+<span>SEO audit for specific landing page</span>
+</div>
+</a>
+</div>
+</li>
+<li class="menu-item-has-children sub-menu-btn">
+<span class=menu-item-name>Solutions<div class=menu-arrow></div></span>
+<div class="sub-menu head-submenu head__submenu">
+<div class=submenu__columns>
+<div class=column>
+<p class=column__title>By industry</p>
+<a href="https://sitechecker.pro/solutions/publishers/">
+Online Publishing </a>
+<a href="https://sitechecker.pro/solutions/e-commerce/">
+E-Commerce </a>
+<a href="https://sitechecker.pro/solutions/saas/">
+SaaS </a>
+<a href="https://sitechecker.pro/solutions/governments/">
+Governments </a>
+</div>
+<div class=column>
+<p class=column__title>By role</p>
+<a href="https://sitechecker.pro/solutions/business-owners/">
+Business owners </a>
+<a href="https://sitechecker.pro/solutions/agencies/">
+Agency owners </a>
+<a href="https://sitechecker.pro/solutions/digital-marketers/">
+Digital marketers </a>
+<a href="https://sitechecker.pro/solutions/software-developers/">
+Software developers </a>
+</div>
+</div>
+</div>
+</li>
+<li><a href="https://sitechecker.pro/account/plans/">Pricing</a></li>
+</ul>
+</div>
+<div class=header__right-part>
+<div class=header__language_menu>
+<ul class="language_menu en">
+<li>
+<div class=header__language_icon></div>
+<div class=sub-menu_container>
+<div class=mobile__close>
+<span></span>
+<span></span>
+</div>
+<ul class=sub-menu>
+<li><a class=current_language title=en href="https://sitechecker.pro/custom-404-page/">English</a></li><li><a class="" title=de href="https://sitechecker.pro/de/custom-404-page/">Deutsch</a></li><li><a class="" title=fr href="https://sitechecker.pro/fr/custom-404-page/">Français</a></li><li><a class="" title=it href="https://sitechecker.pro/it/custom-404-page/">Italiano</a></li><li><a class="" title=nl href="https://sitechecker.pro/nl/custom-404-page/">Nederlands</a></li><li><a class="" title=es href="https://sitechecker.pro/es/custom-404-page/">Español</a></li><li><a class="" title=no href="https://sitechecker.pro/no/custom-404-page/">Norwegian</a></li><li><a class="" title=pt href="https://sitechecker.pro/pt/custom-404-page/">Português</a></li><li><a class="" title=sv href="https://sitechecker.pro/sv/custom-404-page/">Svenska</a></li><li><a class="" title=tr href="https://sitechecker.pro/tr/custom-404-page/">Türkçe</a></li><li><a class="" title=pl href="https://sitechecker.pro/pl/custom-404-page/">Polski</a></li><li><a class="" title=ja href="https://sitechecker.pro/ja/custom-404-page/">日本語</a></li><li><a class="" title=ru href="https://sitechecker.pro/ru/custom-404-page/">Русский</a></li> </ul>
+</div> </li>
+</ul>
+</div>
+<div class="header__user-block element__logged_in">
+<a href="/app/" class=btn-app rel=nofollow>
+<svg class=icon-rocket width=16 height=16 viewBox="0 0 16 16" fill=none xmlns="http://www.w3.org/2000/svg">
+<path d="M8.75321 14.7933L7.66654 12.24C8.71321 11.8533 9.69321 11.3333 10.5999 10.7267L8.75321 14.7933ZM3.75988 8.33333L1.20654 7.24667L5.27321 5.4C4.66654 6.30667 4.14654 7.28667 3.75988 8.33333ZM14.4065 1.59333C14.4065 1.59333 11.1065 0.179333 7.33321 3.95333C5.87321 5.41333 4.99988 7.02 4.43321 8.42667C4.24654 8.92667 4.37321 9.47333 4.73988 9.84667L6.15988 11.26C6.52654 11.6333 7.07321 11.7533 7.57321 11.5667C9.25224 10.9265 10.7768 9.93815 12.0465 8.66667C15.8199 4.89333 14.4065 1.59333 14.4065 1.59333ZM9.69321 6.30667C9.17321 5.78667 9.17321 4.94 9.69321 4.42C10.2132 3.9 11.0599 3.9 11.5799 4.42C12.0932 4.94 12.0999 5.78667 11.5799 6.30667C11.0599 6.82667 10.2132 6.82667 9.69321 6.30667ZM5.91988 11.02L4.97988 10.08L5.91988 11.02ZM4.15988 14.6667L6.58654 12.24C6.35988 12.18 6.13988 12.08 5.93988 11.94L3.21988 14.6667H4.15988ZM1.33321 14.6667H2.27321L5.45321 11.4933L4.50654 10.5533L1.33321 13.7267V14.6667ZM1.33321 12.78L4.05988 10.06C3.91988 9.86 3.81988 9.64667 3.75988 9.41333L1.33321 11.84V12.78Z"/>
+</svg>
+Go to app </a>
+</div>
+<div class="header__user not__login element__logged_out">
+<button class="signin__btn btn-app">Sign in</button>
+<button class="go-to-demo btn-app btn-unfill">Schedule a demo</button>
+<button class="signup__btn btn-app btn-app-raised">Start 7-day free trial</button>
+</div>
+</div>
+</div>
+<div class="header-mobile mob__item">
+<div class="header__language_menu header__language_menu-mob">
+<ul class="language_menu en">
+<li>
+<div class=header__language_icon></div>
+</li>
+</ul>
+</div>
+<div class=language__menu-mob>
+<div class=sub-menu_container>
+<div class=mobile__close>
+<span></span>
+<span></span>
+</div>
+<ul class=sub-menu>
+<li><a class=current_language title=en href="https://sitechecker.pro/custom-404-page/">English</a></li><li><a class="" title=de href="https://sitechecker.pro/de/custom-404-page/">Deutsch</a></li><li><a class="" title=fr href="https://sitechecker.pro/fr/custom-404-page/">Français</a></li><li><a class="" title=it href="https://sitechecker.pro/it/custom-404-page/">Italiano</a></li><li><a class="" title=nl href="https://sitechecker.pro/nl/custom-404-page/">Nederlands</a></li><li><a class="" title=es href="https://sitechecker.pro/es/custom-404-page/">Español</a></li><li><a class="" title=no href="https://sitechecker.pro/no/custom-404-page/">Norwegian</a></li><li><a class="" title=pt href="https://sitechecker.pro/pt/custom-404-page/">Português</a></li><li><a class="" title=sv href="https://sitechecker.pro/sv/custom-404-page/">Svenska</a></li><li><a class="" title=tr href="https://sitechecker.pro/tr/custom-404-page/">Türkçe</a></li><li><a class="" title=pl href="https://sitechecker.pro/pl/custom-404-page/">Polski</a></li><li><a class="" title=ja href="https://sitechecker.pro/ja/custom-404-page/">日本語</a></li><li><a class="" title=ru href="https://sitechecker.pro/ru/custom-404-page/">Русский</a></li> </ul>
+</div> </div>
+<div class=header__menu-mob>
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+</div>
+</header>
+<script>const locale="en";const default_locale="en";const trans=JSON.parse('{"Quick navigation":"Quick navigation","Results":"Results","Page score":"Page score","Waiting":"Waiting","Indexable":"Indexable","Not indexable":"Not indexable","How to fix":"How to fix","Error":"Error","empty":"empty","Hide":"Hide","Warnings":"Warnings","Notice":"Notice","Show more":"Show more","Critical Errors":"Critical Errors","validations":{"names":{"1":"Content optimization","2":"Images","3":"Search optimization","4":"External and internal links","5":"Google Page Speed"},"0":"General","1":"Title check","2":"Description check","3":"H1-H6 check","4":"Content check","5":"Canonical link check","6":"Alternate link check","7":"Pagination","8":"Indexation","9":"URL Vulnerability","10":"Bot check","11":"External links","12":"Subdomain links","13":"Internal links","14":"Mobile PageSpeed Insights","15":"Desktop PageSpeed Insights","16":"Favicon","17":"Images"},"MobilePreview":"Mobile Preview","GoogleSnippet":{"Title":"Google preview","Fix":"Check how your page might appear in Google search results. Google search results typically uses your webpage title, url and meta-description in order to display relevant summarized information about your site. <br>If these elements are too long, Google will truncate their content. <br>Webpage title up to 70 characters in length, and webpage descriptions up to 160 characters in length are recommended in order to optimize readability.","EmptyDescription":"The description is missing, therefore, a relevant text from your page will be shown in snippet."},"Tables":{"Preview":"Preview","PreviewTooltip":"Preview of images, which Sitechecker has found on the page.","AltAttribute":"Alt attribute","AltAttributeTooltip":"Check if images on your webpage are using alt attributes. If an image cannot be displayed (e.g., due to broken image source, slow internet connection, etc), the alt attribute provides alternative information. <br>Using relevant keywords and text in the alt attribute can help both users and search engines better interpret the subject of an image.","TitleAttribute":"Title attribute","TitleAttributeTooltip":"Title attribute is an HTML attribute that can be added to any element, but it is most commonly used with links and images.","Size":"Size","SizeTooltip":"If you upload very large images to your website, your website will slow down when those images are viewed by your visitors. We recommend not to exceed more then 100 KB each image size.","Link":"Link","LinkTooltip":"Full URL of specific page.","Lang":"Lang","LangTooltip":"Shows wich language is detected on the page","MH":"MH","MHTooltip":"Backward metahead rel=\\\u0022alternate\\\u0022 link declaration","B":"B","BTooltip":"Backward link in body section","Code":"Code","CodeTooltip":"HTTP Status codes are three-digit numbers returned by servers that indicate the status of a web element. First digit of each three-digit status code begins with one of five numbers, 1 through 5.","Qty":"Qty.","QtyTooltip":"The number of times, when this page was found.","Anchor":"Anchor","AnchorTooltip":"Anchor text is the clickable text in a hyperlink. SEO best practices dictate that anchor text be relevant to the page you are linking to, rather than generic text.","DisplayTags":"H1-H6","CountAllTags":"Count of H1-H6"},"Newsletter":{"Thank You for signing up":"Thank You for signing up","Enter correct email":"Enter correct email","Enter your email":"Error"},"Form.Page is":"Page is","Form.Page size":"Page size","Form.Page status codes":"Page status codes","Minitools.Robots.Placeholder":"Enter URL to check","Minitools.Button":"Test","Minitools.Robots.Title":"Test if this URL is blocked by Robots.txt file","Minitools.404.Title":"Find broken links with 404 error checker","Minitools.Error.Placeholder":"Invalid URL","Minitools.Favicons.Title":"Use favicon checker to find out if your website is memorable for users and browsers","Minitools.URLLength.Title":"URL Cheker","Minitools.H-1.Title":"H1 Tag Checker","Minitools.Title.Title":"Title Tag Checker","Minitools.Description.Title":"Meta description checker ","Minitools.Redirection.Title":"HTTP \u0026amp; HTTPS Redirect Checker","Minitools.WwwNonWww.Title":"Check redirect WWW to non-WWW","Minitools.Canonical.Title":"Canonical URL checker","Minitools.InternalLinks.Title":"Internal Links Checker","Minitools.Images.Title":"Check alt text for images placed on your website","Minitools.StatusCode.Title":"HTTP status checker","Minitools.Pagination.Title":"Pagination Checker","Minitools.ExternalLinks.Title":"External Links Checker","Minitools.PageSize.Title":"Web Page size checker","Minitools.Indexing.Title":"Index checker for a specific URL","Minitools.Speed.Title":"Website Speed Test"}'.replace(/\\'/g,"\'"));const lang_cookie_name="qtrans_front_language";</script>
+<main>
+<div class="main article__page ">
+<div class="wrapper article__wrapper">
+<div class="article__aside-wrap article__menu-wrap">
+<div class=article__menu>
+<div class=article__menu-title>
+Fast Links </div>
+<div class=article__menu-body><ul>
+<li><a href="#what_is">What Is a 404 Error?</a></li>
+<li><a href="#importance">Why Is a 404 Page Important?</a></li>
+<li><a href="#how_to">How To Create a Custom 404 Page?</a></li>
+<li><a href="#suggestions">General suggestions</a></li>
+<li><a href="#design">Error 404 Page Design Best Practices</a></li>
+</ul></div>
+</div>
+</div>
+<div class="article__aside-wrap article__banner-wrap element__logged_out">
+<div class=article__banner>
+<p class=title>Free SEO Audit</p>
+<p class=description>Crawl the website for technical issues and get a prioritized to-do list with detailed guides on how to fix.</p>
+<form id=audit__form class="article__seo-search audit__form banner__conversion__form free-trial-form" action="" method=POST autocomplete=off>
+<span class=error></span>
+<div class=error__limits>Something went wrong. Please, try again later.</div>
+<input name=url type=text placeholder="Enter your domain">
+<button type=submit class=banner__btn>
+<span>Start your FREE trial</span>
+<img src="/wp-content/themes/sitechecker/out/img_design/loading.svg" alt=arrow title=arrow class=loading data-pagespeed-url-hash=2053199882 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+</button>
+</form>
+<div class=platform__rating>
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/banner-crozdesk-rating.svg" alt="Sitechecker crozdesk rating" data-pagespeed-url-hash=2171584811 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/banner-crowd-rating.svg" alt="Sitechecker crowd rating" data-pagespeed-url-hash=3726165501 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/banner-capterra-rating.svg" alt="Sitechecker capterra rating" data-pagespeed-url-hash=1181770856 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+</div>
+<div class=trusted__company>
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/trusted-by-company.svg" alt="Sitechecker trusted company" data-pagespeed-url-hash=2341669622 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+</div>
+</div>
+</div>
+<h1 class=article__title>How To Create a Custom 404 Error Page With Your Own Design?</h1>
+<div class=article__info>
+<div class=article__author-img style="background-image: url(https://sitechecker.pro/wp-content/uploads/2021/03/Ирина_SEO_specialist.png)"></div>
+<div class=author>
+<a href="https://sitechecker.pro/author/iryna-krutkoo/" rel=author class=article__info-link>
+<span>Iryna Krutko</span>
+</a>
+</div>
+<div class=category>
+<a href="https://sitechecker.pro/category/technical-seo/"><span>Technical SEO</span></a>
+</div>
+<div class=date>
+<span>Mar 10, 2022 </span>
+</div>
+</div>
+<img src="https://sitechecker.pro/wp-content/uploads/2017/12/404.png" alt="How To Create a Custom 404 Error Page With Your Own Design?" title="How To Create a Custom 404 Error Page With Your Own Design?" class=article__img loading=lazy data-pagespeed-url-hash=3886678098 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<div class=article__content-block>
+<p>A 404 error page is the web page that displays when someone enters an incorrect web address into their browser. It’s important to have a custom 404 error page because it helps to improve user experience and avoid triggering Google penalties. This article will provide step-by-step instructions on how to create your own custom 404 error page with your own design, whether you use WordPress or not.</p>
+<h2 id=what_is>What Is a 404 Error?</h2>
+<p>The HTTP status <strong>code 404</strong> (or &#8220;Page Not Found&#8221;) indicates that the<strong> server was unable to locate the content requested</strong> by the user. Basically, this is a <strong>non-existent or broken page</strong>. Here is the text you will typically see displayed on the page:</p>
+<ul>
+<li>404</li>
+<li>404 Error</li>
+<li>404 Not Found</li>
+<li>404 Page Not Found</li>
+<li>Error 404 Not Found</li>
+<li>HTTP 404 Not Found</li>
+</ul>
+<p>You can use SiteChecker’s tool to <a href="https://sitechecker.pro/broken-links/" target=_blank rel="noopener noreferrer">find all broken pages on the website</a> and learn more about the 404 error.</p>
+<p>There are a lot of <a href="https://www.wpoven.com/blog/error-404-not-found/" rel="noopener noreferrer" target=_blank>reasons why an error 404 may show up</a> on your webpage — for example, the website has removed your page. It occurs when an internal link leads to a page that does not exist. Such acts have the potential to degrade the user experience as well as disrupt the interlinking of websites.</p>
+<p>Another reason may be that the URL address was typed incorrectly by the user. Perhaps they attempted to manually insert a direct link and made a typo. It can also be a technical fault — for instance, the page was moved, and the redirection was set up incorrectly. The fact that the page was removed from the site server does not guarantee that no one will attempt to access it. It will be found on search engines for some time. In addition, the user&#8217;s browser tabs may have a link to a specific page of the site.</p>
+<p>Lastly, it’s also possible that the server is not working properly, even though it happens very rarely. The server may occasionally provide a 404 error as a result of a malfunction. The DNS cache saves the locations (IP addresses) of web servers that have recently served you web pages. To ensure that just the current IP addresses are used, you can clear it. After you&#8217;ve completed the appropriate procedures, restart your browser and open the page to see if you can get back into it. For more information on how to fix broken URLs, click <a href="https://sitechecker.pro/site-audit-issues/4xx-client-errors/" target=_blank rel="noopener noreferrer">here</a>.</p>
+<h2 id=importance>Why Is a 404 Page Important?</h2>
+<p>The older your website is, the more likely the occurrence of 404 pages is. The majority of website traffic comes from people typing in URLs directly into their browser window. So it stands to reason that those visitors expect certain things when they get there:</p>
+<ol>
+<li>To see what they were looking for</li>
+<li>To not be met with an access denied page or anything else that looks like they shouldn’t be there</li>
+</ol>
+<p>So think of 404 pages as customer service. It doesn’t matter how strong your product line-up is; bad customer service can hurt sales exponentially more than no customer service at all. Don’t take your visitor’s loyalty (and, potentially, their money) for granted!</p>
+<p>A 404 error page simply lets people know that they have entered an incorrect address in their web browser. Most sites these days add redirect links to some of their most popular pages (like Home or About Us) on their 404 error page, as nobody wants to sift through dozens of pages before finding what they are looking for!</p>
+<h3>Search Engines Recommend: Google, Yahoo, Bing</h3>
+<p>A customized 404 page is a professional solution that will serve as a good user experience as well as branding for you. Plus, people who visit your site won’t get lost in cyberspace when they click on something that doesn’t exist! Simply mention on your own page where they went wrong.</p>
+<p>A<strong> custom 404 page</strong> is no longer required by Google, but Google does reward websites that make extra efforts to help users find what they need. What makes you stand out from other businesses? How does being different drive traffic to your website? This stands true whether you own a local coffee shop or run an e-commerce business selling items worldwide. The best way to answer both questions above is to create a custom 404 page that represents your brand well and gives everyone who visits your site confidence in you as their customer service provider.</p>
+<h3>SEO Technical Set Up of a 404 Page</h3>
+<p>First of all, when someone lands on an old or incorrect URL, they expect to see something relevant to what they are looking for. It&#8217;s better to redirect visitors straight away than disappoint them later with irrelevant content. Your missing page could bring traffic from search engines if there are no other high-quality results around your site; direct traffic is always better than traffic from search engine bots. And finally, it&#8217;s good to have a nice-looking custom 404 error page that complements your website design rather than mixing it up. This will improve your user experience and Google ranking at the same time!</p>
+<p>If you have developed your website yourself, you should already know what these errors look like. However, creating a new custom error page depends on what type of CMS is used on your site and whether it provides any special plugins for that purpose (discussed in detail below).</p>
+<p>This brings us to the question, are 404 error pages good or bad for SEO? In short, they are both good and bad. Firstly, they can prevent keyword ranking if they aren’t fixed. When webpages that were formerly live become 404 not found, all keywords that used to rank for that webpage begin to fall out of the SERPs. Organic traffic loss occurs when keywords begin to lose relevance for the website. If the 404 page is not corrected, the website will eventually no longer rank for that term, and any organic traffic that those keywords brought in will be lost. This is known as keyword bleed; it primarily affects larger websites, but it can affect any website that is neglected.</p>
+<p>Moreover, many people believe that the indexing of the site and its position in the search results are both badly impacted by 404 errors, yet this assumption is incorrect in the vast majority of circumstances. For better website optimization, it&#8217;s crucial to understand SERP elements. What happens to a page like this when a robot comes across it? If it&#8217;s in the index, it&#8217;ll be removed; if it&#8217;s not, the bot won&#8217;t scan it. This is understandable given that it is no longer informative or useful. However, you must be aware of the possibility of SOFT mistakes. SOFT 404 is not an actual server response but rather a tag that search engines attach to pages after a crawl.</p>
+<p>The following are the reasons why search engines make such decisions:</p>
+<ul>
+<li>On the page, there is little or no content;</li>
+<li>There is a redirect to a page that does not fulfill the needs of the users;</li>
+<li>There is no 404 or 410 server response for the non-existent page.</li>
+</ul>
+<p>On the other hand, 404 pages can lead to poor SEO. When a webpage is not found, the keywords on that webpage are not detected, which is why 301 redirects can help. Searchbots search the website to identify keywords to rank the website for. If a 301 redirect is in place, searchbots will identify the keywords to rank the new webpage URL with, and the website will retain its keyword ranks. There are a few more variables to consider, but this summarizes the procedure.</p>
+<p>404 error pages may also prevent webpage indexing (only in some cases). They can hinder searchbots from crawling the rest of a website&#8217;s vital pages. Depending on the problem, search engines may deindex entire chunks (assuming the webpages are no longer needed) and true 410 webpages, which signify GONE. If a webpage&#8217;s SEO hasn&#8217;t been adjusted yet, even if it has since been properly optimized, search engines won&#8217;t see the new modifications until searchbots crawl the website again.</p>
+<p>Any internal linking on those webpages will be lost if the webpage or, worse, the entire URL folder is not found. This will impair further indexing and keyword ranking. If you&#8217;re not careful, SEO can have a domino effect. When searchbot crawling is disabled, the entire SEO of a website suffers; until the pages are scanned again, RankBrain will utilize whatever the latest cache of the webpage was to perform its checks and balances.</p>
+<p>On the other hand, when page URLs are broken or never existed in the first place, search engines, website visitors, and webmasters receive a 404 error.</p>
+<p>This allows developers to remedy the problem for future website visitors if they can determine where these error codes appear, retaining the power of the page that once existed. This is referred to as broken backlink building. You won&#8217;t know that the page — and, thus, the user — is encountering an error unless you send a 404 response code.</p>
+<div class="blog__conversion blog__conversion-app element__logged_out">
+<div class=blog__conversion-inner>
+<p class=title>Fix all 404 errors on the website</p>
+<p class=description>Crawl your website, detect all broken links and fix them immediately</p>
+<form id=audit__form class="article__seo-search audit__form banner__conversion__form free-trial-form" action="" method=POST autocomplete=off>
+<span class=error></span>
+<div class=error__limits>Something went wrong. Please, try again later.</div>
+<input name=url type=text placeholder="Paste your domain name here">
+<button type=submit class=sitechecker__text>
+<span>Launch audit</span>
+<img src="/wp-content/themes/sitechecker/out/img_design/loading.svg" class=loading data-pagespeed-url-hash=2053199882 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+</button>
+</form>
+<div class=platform-rating>
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/crozdesk-stars.svg" alt="Sitechecker rating on crozdesk" data-pagespeed-url-hash=3976661788 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/crowd-stars.svg" alt="Sitechecker rating on crowd" data-pagespeed-url-hash=555971548 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/capterra-stars.svg" alt="Sitechecker rating on capterra" data-pagespeed-url-hash=67570779 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+</div>
+</div>
+</div>
+<h2 id=how_to>How To Create a Custom 404 Page?</h2>
+<p>Creating a custom 404 page requires basic know-how of code and design. If you have some experience with that, you can create it yourself — but if not, it’s best to hire a web designer.</p>
+<p>The method begins with creating a typical web page with all of the elements you&#8217;ll need for your 404 page. Remember to include a light-hearted statement explaining why a visitor has arrived on this page, a search box so they can discover what they&#8217;re searching for, and possibly a sitemap so they can opt to go somewhere else.</p>
+<p>It&#8217;s crucial to provide your 404 page with a unique name. Then, in the root directory of your server/web space, upload your page. However, a lot of people are now using plugins such as WordPress, which makes it easy for anyone to create a custom 404 page without the need for coding.</p>
+<p>Keep the following goals in mind when learning how to develop a superb 404 page:</p>
+<ul>
+<li>Attract the attention of the users;</li>
+<li>Explain what has occurred;</li>
+<li>Suggest a solution to the problem.</li>
+</ul>
+<p>When it comes to making your own 404 page, search engines advise you to do the following.</p>
+<h3>Google</h3>
+<ul>
+<li>The page should be designed in the same style as the main website (including navigation);</li>
+<li>Provide links to the most popular articles as well as a comment box;</li>
+<li>Make it possible for your users to report broken links.</li>
+</ul>
+<h3>Yandex</h3>
+<p>Its design should be distinct from the rest of the site; for example, when building a page, you should use different colors or perhaps avoid using visuals at all.</p>
+<h3 id=suggestions>General suggestions</h3>
+<p>It should include a link to the home page, as well as a polite message informing the user that the page they requested is unavailable.</p>
+<p>The preceding suggestions are not absolute guidelines for 404 pages. It all relies on the website&#8217;s subject and intended audience. A search line is important for a webshop, and contact information is important for a site that offers services.</p>
+<h3>What Should a 404 Page Include?</h3>
+<p>Web designers should always consider 404 pages as an opportunity for branding and improving user experience. Consider incorporating creative and informative elements into your error page design in order to reduce your site&#8217;s bounce rate. The bounce rate refers to how many people leave your site after viewing only one page.</p>
+<p>Although there are several factors that influence the bounce rate—such as search engine optimization—most bounces occur because users think they found what they were looking for and don&#8217;t see any reason to stay on your site. In other words, if people don&#8217;t stay long enough to get something out of your content or advertising, the bounce rate will go up. There are three major causes of high bounce rates:</p>
+<ul>
+<li>Not giving a clear call-to-action</li>
+<li>Not providing readers with what they&#8217;re looking for on landing pages</li>
+<li>Making visitors work too hard to find information</li>
+</ul>
+<p>Check out these practical ways to reduce your site&#8217;s bounce rate and make more money from every customer you have:</p>
+<p>1. <strong>Clearly identify each page&#8217;s purpose and CTA</strong>: The purpose of each page on your site should be very clear at all times, including when someone lands on it through a search result or another link. If it isn&#8217;t immediately obvious to readers where they&#8217;ve ended up and what they&#8217;ll accomplish by staying on your website, visitors won&#8217;t bother sticking around. You can achieve clarity in a number of ways; choose CTAs appropriate for each unique situation.</p>
+<p>2.<strong> Describe what&#8217;s missing</strong>: Providing context can encourage visitors to stick around even if they didn&#8217;t land on a specific destination. For example, suppose you want to create a LinkedIn profile but somehow end up on a Yahoo home page instead. When Yahoo shows its famous 404 File Not Found error message, do you know what went wrong? Chances are,  you simply mistyped a URL. By indicating where visitors expected to go (and perhaps even suggesting alternative URLs), custom 404 pages allow visitors to recover from mistakes quickly.</p>
+<p>3. <strong>Remove unnecessary steps</strong>: When designing your custom 404 page, ask yourself whether it would confuse or frustrate new readers who land there accidentally. For instance, imagine you run a jewelry shop and use Facebook to promote your products. Let&#8217;s say someone clicks on a link to your Facebook page and arrives on your 404 page. This individual probably expects to see links for related products or some indication of what brought them there. Instead, they see nothing relevant whatsoever. Such a jarring lack of explanation will likely make the user feel frustrated, confused, and unwanted: exactly what you hope to avoid in their current state of mind.</p>
+<p>4. <strong>Explain to users what they&#8217;re seeing</strong>: Give your visitors a hint about what kind of error took them to that page—for example, “Oops, we can&#8217;t find what you were looking for!” or “Sorry, we don&#8217;t have an English version of this page!” Use action verbs and first-person POV (I can&#8217;t find&#8230; and We don&#8217;t offer&#8230; rather than You can&#8217;t&#8230; and We don&#8217;t offer&#8230;) to keep readers engaged while they search for exactly what they need.</p>
+<p>As you craft your custom 404 error page, keep these four tips in mind to help make it both informational and engaging. Avoid letting frustrating situations discourage future readers from taking action on your site. One of the biggest reasons for poor site usability is a poorly-organized navigation system. Visitors need to be able to easily find their way around if they&#8217;re going to remain engaged and productive, so it&#8217;s important that you plan ahead before launching your site.</p>
+<h3>How To Create a 404 Page on WordPress?</h3>
+<p>Start by looking at your WordPress dashboard; you’ll see a number of options to choose from on the lefthand side of your screen. Click on “Appearances” under Products and then choose “404 Page.”</p>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2022/02/WP_404.png" alt="how to Create a 404 page on WordPress" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=1780310239 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<p>You can enter some information about the kind of post (e.g., Error Message), but all you really need is some text, for example, “Page not found.” Make sure you add all the elements mentioned above and then click on Publish when you’re done. You can also use plugins to create contact forms, improve SEO, add widgets, etc.</p>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2022/02/WP_plugins.png" alt="WordPress Plugins" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=993152779 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<p>Here is the super-fast &amp; simple tutorial on how to make it with the Elementor plugin.</p>
+<p><iframe title="YouTube video player" src="https://www.youtube.com/embed/Z2GoYYbWciU" width=770 height=350 frameborder=0 allowfullscreen=allowfullscreen></iframe></p>
+<h3>How To Create On-Site Makers: Wix, Shopify, and Others</h3>
+<p>Most websites use custom-built JavaScript code or third-party software to create their customized 404 pages. Wix, for example, includes a tool that allows you to build your own 404 not found page that fits your brand. This tool generates web code that you can copy and paste into your website’s home page, meaning it will show up whenever someone tries to visit a broken link on your site.</p>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2022/02/wix_404.png" alt="How to Create a 404 page on Wix" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=2643208208 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<p>If you prefer Shopify as your platform of choice, you can choose from its default templates or create your own custom 404 page layout:</p>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2022/02/shopify_404.png" alt="Shopify Custom 404 Page Layout" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=1570178444 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<p>You can also add a customized background and elements such as a search bar to improve user experience.</p>
+<h2 id=design>Error 404 Page Design Best Practices</h2>
+<p>Although there are plenty of great 404 error page design templates out there, your website’s unique content and style can give you an edge in providing a polished user experience. Here are some best practices for 404 error page design that you can use as inspiration. Keep them in mind when selecting or creating any type of web design template; they’ll help you create a responsive 404 error page that feels at home on your site.</p>
+<ul>
+<li><strong>Don’t make users hunt for what they were looking for</strong>: A custom 404 error page should guide users who have clicked a broken link back to where they want to be, rather than force them through multiple steps to get back on track.</li>
+<li><strong>Include a short description of your company on every 404 error page </strong>— and link to it from each potentially broken URL, so visitors never feel lost while hunting around!</li>
+<li><strong>Add useful information about a broken link</strong>: Even if you don’t actually provide a replacement for missing content, consider adding other relevant information about why a specific piece of content isn’t currently available (i.e., Sale items are only available online until January 20th). This adds context and usefulness without making visitors click more links.</li>
+<li><strong>Include an obvious call-to-action</strong>: If you have a strong conversion goal associated with each 404 error page visit, add a “click here” CTA button to encourage visitors to explore your site further.</li>
+<li><strong>The cleaner your 404 error page is, and the less disruptive errors appear</strong>, the easier it will be for someone to act immediately after seeing yours!</li>
+<li><strong>Use redirection tools wherever possible</strong>: Redirecting traffic via scripting is typically much faster than forcing every visitor to leave their current website before being redirected elsewhere.</li>
+<li>If you’re trying to collect contact information from visitors who entered a missing landing page URL manually, <strong>using both redirection scripts AND a quick form</strong> that allows people to enter their email address themselves could be ideal.</li>
+<li><strong>Be honest in your explanation</strong>: Honesty sells—even when it comes to explaining why something doesn’t exist anymore. Say as little as possible, but no more than necessary; let customers know right away why they landed on a 404 error page.</li>
+</ul>
+<p>Lead customers by example: Implement custom 404 error pages across all of your sites — even ones not owned by you. Your consistent messaging gives customers peace of mind that they haven’t accidentally found a bad link somewhere along their browsing journey, and it makes it clear to everyone exactly how seriously you take your business endeavors. You’d hate to lose a potential customer because they mistakenly got frustrated and jumped ship, so it’s a smart practice to avoid potential trouble. Check out the following design ideas for inspiration:</p>
+<h3>Sitechecker</h3>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2019/11/sitechecker-404.png" alt="Sitechecker’s custom 404 page" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=987168340 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<h3>WP Forms</h3>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2022/02/wpforms_404.png" alt="WPForm’s custom 404 page" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=928227828 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<h3>Disney</h3>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2022/02/disney_404.png" alt="Disney’s custom 404 page" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=1692086486 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<h3>Netflix</h3>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2022/02/netflix_404.png" alt="Netflix’s custom 404 page" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=699017888 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<h3>Tripadvisor</h3>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2022/02/tripadvisor_404.png" alt="Tripadvisor’s custom 404 page" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=340043753 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<h3>GitHub</h3>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2017/12/github-404-page-not-found.png" alt="Github’s custom 404 page" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=3658126203 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<h3>Ahrefs</h3>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2017/12/ahrefs-404-page-not-found.png" alt="Ahref’s custom 404 page" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=595256107 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<h3>YouTube</h3>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2017/12/youtube-404-page.png" alt="Youtube’s custom 404 page" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=642715474 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<h3>Amazon</h3>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2017/12/amazon-404-page.png" alt="Amazon’s custom 404 page" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=3299514607 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<h3>Linkedin</h3>
+<div class=content__img-wrap><img src="https://sitechecker.pro/wp-content/uploads/2017/12/linkedin-404-page.png" alt="Linkedin’s custom 404 page" class="description-img description-img-zoom" loading=lazy data-pagespeed-url-hash=2088869649 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+<p>When it comes to designing your own 404 page, you can either hire a freelancer, work with a design agency, or do it yourself. Your decision should depend on the budget that you have and the skills required to complete the task.</p>
+<h2>Conclusion</h2>
+<p>While you should ensure that your 404 pages are top-notch, it’s best to minimize their existence. Luckily, there are a few simple fixes to 404 error pages. Firstly, reload the page if necessary. Because of a poor internet connection, a web page may not load properly at times. Simply use the &#8220;refresh&#8221; button on your browser.</p>
+<p>You can also try clearing the cache and cookies on your computer. Simply open a website or web page in a different browser. If the HTTP 404 error only appears on one machine, the issue could be with your browser. If the site is functional, you should clear your browser&#8217;s cache and cookies. Follow this comprehensive guide on Google cache for additional information on browser cache and how to remove cache in your browser.</p>
+<p>Moreover, make your way around the website. Use a website search to find a needed web page; simply type in precise terms to find the page you&#8217;re looking for. You can contact the webmaster directly if this does not work.</p>
+<p>Other difficulties with 4xx pages must be resolved, such as when the AMP Page URL (4XX) is not detected, 4xx pages obtain organic traffic, or 4xx pages are found in the Sitemap.</p>
+<div class=article__author>
+<div class=article__author-img style="background-image: url(https://sitechecker.pro/wp-content/uploads/2021/03/Ирина_SEO_specialist.png)"></div>
+<div class=article__author-title>
+<a href="https://sitechecker.pro/author/iryna-krutkoo/" rel=author class=author-name-link>
+Iryna Krutko </a>
+<p class=position>SEO specialist</p>
+<p class=description>Iryna is SEO expert at Sitechecker. She is responsible for Web hosting categories and reviews. Obsessed with creating valuable content and analytics.</p>
+<div class=article__author-links>
+<a href="https://www.facebook.com/iryna.berdetska/" class="article__author-link article__author-link-fb" rel=nofollow target=_blank>
+Facebook
+</a>
+<a href="https://www.linkedin.com/in/iryna-krutko/" class="article__author-link article__author-link-in" rel=nofollow target=_blank>
+Linkedin
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class=subscribe__banner>
+<p>Check Your Website for SEO Errors</p>
+<a href="/app/" class="btn-app element__logged_in">Go to App</a>
+<form class="article__seo-search audit__form element__logged_out" action="" method=POST>
+<span class=error></span>
+<div class=error__limits>Something went wrong. Please, try again later.</div>
+<input name=url type=text placeholder="Enter your domain">
+<button type=submit class=btn-app><span>Analyze</span><img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/loading.svg" alt=arrow title=arrow class=loading data-pagespeed-url-hash=2682321627 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></button>
+</form>
+</div>
+<div class=articles__footer>
+<div class=wrapper>
+<div class=article__more>
+<p class=article__more-title>You may also like</p>
+</div>
+<div class=article__more-container>
+<div class=article__more-block>
+<div class=article__info>
+<div class=category>
+<a href="https://sitechecker.pro/category/technical-seo/" class=tag><span>Technical SEO</span></a>
+</div>
+<div class=date>
+<span>14 Dec, 2017</span>
+</div>
+</div>
+<a href="https://sitechecker.pro/robots-tester/" class=title>Robots.txt Tester: The Tool’s Specifics and Usage Revealed</a>
+</div>
+<div class=article__more-block>
+<div class=article__info>
+<div class=category>
+<a href="https://sitechecker.pro/category/technical-seo/" class=tag><span>Technical SEO</span></a>
+</div>
+<div class=date>
+<span>28 Feb, 2022</span>
+</div>
+</div>
+<a href="https://sitechecker.pro/what-is-canonical-url/" class=title>What Is Canonical URL Tag & How To Implement It?</a>
+</div>
+<div class=article__more-block>
+<div class=article__info>
+<div class=category>
+<a href="https://sitechecker.pro/category/technical-seo/" class=tag><span>Technical SEO</span></a>
+</div>
+<div class=date>
+<span>5 Feb, 2018</span>
+</div>
+</div>
+<a href="https://sitechecker.pro/xml-sitemap/" class=title>Sitemap Checker - Test Sitemap XML Using Our Tool</a>
+</div>
+<div class=article__more-block>
+<div class=article__info>
+<div class=category>
+<a href="https://sitechecker.pro/category/technical-seo/" class=tag><span>Technical SEO</span></a>
+</div>
+<div class=date>
+<span>2 Mar, 2022</span>
+</div>
+</div>
+<a href="https://sitechecker.pro/http-status-codes-list/" class=title>Explore the Comprehensive Cheat Sheet with HTTP Status Codes</a>
+</div>
+<div class=article__more-block>
+<div class=article__info>
+<div class=category>
+<a href="https://sitechecker.pro/category/technical-seo/" class=tag><span>Technical SEO</span></a>
+</div>
+<div class=date>
+<span>12 Dec, 2017</span>
+</div>
+</div>
+<a href="https://sitechecker.pro/canonical-url/" class=title>Canonical Tag Checker - Use Our Free Tool to Test Domain or URL</a>
+</div>
+</div>
+<a href="https://sitechecker.pro/category/technical-seo/" class=more__articles>Show more articles</a>
+</div>
+</div>
+<link href="https://sitechecker.pro/wp-content/themes/sitechecker/out/js/fancybox/jquery.fancybox.css?v=2.1.7" rel=stylesheet type="text/css" media=none onload="if(media!=='screen')media='screen'">
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://sitechecker.pro",
+                "name": "Home"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@id": "https://sitechecker.pro/blog/",
+                "name": "Knowledge Base"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@id": "https://sitechecker.pro/category/technical-seo/",
+                "name": "Technical SEO"
+            }
+        }
+    ]
+}</script><script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sitechecker.pro/custom-404-page/"
+    },
+    "url": "https://sitechecker.pro/custom-404-page/",
+    "datePublished": "2022-03-10",
+    "dateModified": "2022-08-18",
+    "headline": "How To Create a Custom 404 Error Page With Your Own Design?",
+    "wordCount": 3901,
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://sitechecker.pro/wp-content/uploads/2017/12/404.png"
+    },
+    "articleBody": "A 404 error page is the web page that displays when someone enters an incorrect web address into their browser. It’s important to have a custom 404 error page because it helps to improve user experience and avoid triggering Google penalties. This article will provide step-by-step instructions on how to create your own custom 404 error page with your own design, whether you use WordPress or not.What Is a 404 Error?The HTTP status code 404 (or &quot;Page Not Found&quot;) indicates that the server was unable to locate the content requested by the user. Basically, this is a non-existent or broken page. Here is the text you will typically see displayed on the page: 404 404 Error 404 Not Found 404 Page Not Found Error 404 Not Found HTTP 404 Not FoundYou can use SiteChecker’s tool to find all broken pages on the website and learn more about the 404 error.There are a lot of reasons why an error 404 may show up on your webpage — for example, the website has removed your page. It occurs when an internal link leads to a page that does not exist. Such acts have the potential to degrade the user experience as well as disrupt the interlinking of websites.Another reason may be that the URL address was typed incorrectly by the user. Perhaps they attempted to manually insert a direct link and made a typo. It can also be a technical fault — for instance, the page was moved, and the redirection was set up incorrectly. The fact that the page was removed from the site server does not guarantee that no one will attempt to access it. It will be found on search engines for some time. In addition, the user's browser tabs may have a link to a specific page of the site.Lastly, it’s also possible that the server is not working properly, even though it happens very rarely. The server may occasionally provide a 404 error as a result of a malfunction. The DNS cache saves the locations (IP addresses) of web servers that have recently served you web pages. To ensure that just the current IP addresses are used, you can clear it. After you've completed the appropriate procedures, restart your browser and open the page to see if you can get back into it. For more information on how to fix broken URLs, click here.Why Is a 404 Page Important?The older your website is, the more likely the occurrence of 404 pages is. The majority of website traffic comes from people typing in URLs directly into their browser window. So it stands to reason that those visitors expect certain things when they get there: To see what they were looking for To not be met with an access denied page or anything else that looks like they shouldn’t be thereSo think of 404 pages as customer service. It doesn’t matter how strong your product line-up is; bad customer service can hurt sales exponentially more than no customer service at all. Don’t take your visitor’s loyalty (and, potentially, their money) for granted!A 404 error page simply lets people know that they have entered an incorrect address in their web browser. Most sites these days add redirect links to some of their most popular pages (like Home or About Us) on their 404 error page, as nobody wants to sift through dozens of pages before finding what they are looking for!Search Engines Recommend: Google, Yahoo, BingA customized 404 page is a professional solution that will serve as a good user experience as well as branding for you. Plus, people who visit your site won’t get lost in cyberspace when they click on something that doesn’t exist! Simply mention on your own page where they went wrong.A custom 404 page is no longer required by Google, but Google does reward websites that make extra efforts to help users find what they need. What makes you stand out from other businesses? How does being different drive traffic to your website? This stands true whether you own a local coffee shop or run an e-commerce business selling items worldwide. The best way to answer both questions above is to create a custom 404 page that represents your brand well and gives everyone who visits your site confidence in you as their customer service provider.SEO Technical Set Up of a 404 PageFirst of all, when someone lands on an old or incorrect URL, they expect to see something relevant to what they are looking for. It's better to redirect visitors straight away than disappoint them later with irrelevant content. Your missing page could bring traffic from search engines if there are no other high-quality results around your site; direct traffic is always better than traffic from search engine bots. And finally, it's good to have a nice-looking custom 404 error page that complements your website design rather than mixing it up. This will improve your user experience and Google ranking at the same time!If you have developed your website yourself, you should already know what these errors look like. However, creating a new custom error page depends on what type of CMS is used on your site and whether it provides any special plugins for that purpose (discussed in detail below).This brings us to the question, are 404 error pages good or bad for SEO? In short, they are both good and bad. Firstly, they can prevent keyword ranking if they aren’t fixed. When webpages that were formerly live become 404 not found, all keywords that used to rank for that webpage begin to fall out of the SERPs. Organic traffic loss occurs when keywords begin to lose relevance for the website. If the 404 page is not corrected, the website will eventually no longer rank for that term, and any organic traffic that those keywords brought in will be lost. This is known as keyword bleed; it primarily affects larger websites, but it can affect any website that is neglected.Moreover, many people believe that the indexing of the site and its position in the search results are both badly impacted by 404 errors, yet this assumption is incorrect in the vast majority of circumstances. For better website optimization, it's crucial to understand SERP elements. What happens to a page like this when a robot comes across it? If it's in the index, it'll be removed; if it's not, the bot won't scan it. This is understandable given that it is no longer informative or useful. However, you must be aware of the possibility of SOFT mistakes. SOFT 404 is not an actual server response but rather a tag that search engines attach to pages after a crawl.The following are the reasons why search engines make such decisions: On the page, there is little or no content; There is a redirect to a page that does not fulfill the needs of the users; There is no 404 or 410 server response for the non-existent page.On the other hand, 404 pages can lead to poor SEO. When a webpage is not found, the keywords on that webpage are not detected, which is why 301 redirects can help. Searchbots search the website to identify keywords to rank the website for. If a 301 redirect is in place, searchbots will identify the keywords to rank the new webpage URL with, and the website will retain its keyword ranks. There are a few more variables to consider, but this summarizes the procedure.404 error pages may also prevent webpage indexing (only in some cases). They can hinder searchbots from crawling the rest of a website's vital pages. Depending on the problem, search engines may deindex entire chunks (assuming the webpages are no longer needed) and true 410 webpages, which signify GONE. If a webpage's SEO hasn't been adjusted yet, even if it has since been properly optimized, search engines won't see the new modifications until searchbots crawl the website again.Any internal linking on those webpages will be lost if the webpage or, worse, the entire URL folder is not found. This will impair further indexing and keyword ranking. If you're not careful, SEO can have a domino effect. When searchbot crawling is disabled, the entire SEO of a website suffers; until the pages are scanned again, RankBrain will utilize whatever the latest cache of the webpage was to perform its checks and balances.On the other hand, when page URLs are broken or never existed in the first place, search engines, website visitors, and webmasters receive a 404 error.This allows developers to remedy the problem for future website visitors if they can determine where these error codes appear, retaining the power of the page that once existed. This is referred to as broken backlink building. You won't know that the page — and, thus, the user — is encountering an error unless you send a 404 response code. How To Create a Custom 404 Page?Creating a custom 404 page requires basic know-how of code and design. If you have some experience with that, you can create it yourself — but if not, it’s best to hire a web designer.The method begins with creating a typical web page with all of the elements you'll need for your 404 page. Remember to include a light-hearted statement explaining why a visitor has arrived on this page, a search box so they can discover what they're searching for, and possibly a sitemap so they can opt to go somewhere else.It's crucial to provide your 404 page with a unique name. Then, in the root directory of your server/web space, upload your page. However, a lot of people are now using plugins such as WordPress, which makes it easy for anyone to create a custom 404 page without the need for coding.Keep the following goals in mind when learning how to develop a superb 404 page: Attract the attention of the users; Explain what has occurred; Suggest a solution to the problem.When it comes to making your own 404 page, search engines advise you to do the following.Google The page should be designed in the same style as the main website (including navigation); Provide links to the most popular articles as well as a comment box; Make it possible for your users to report broken links.YandexIts design should be distinct from the rest of the site; for example, when building a page, you should use different colors or perhaps avoid using visuals at all.General suggestionsIt should include a link to the home page, as well as a polite message informing the user that the page they requested is unavailable.The preceding suggestions are not absolute guidelines for 404 pages. It all relies on the website's subject and intended audience. A search line is important for a webshop, and contact information is important for a site that offers services.What Should a 404 Page Include?Web designers should always consider 404 pages as an opportunity for branding and improving user experience. Consider incorporating creative and informative elements into your error page design in order to reduce your site's bounce rate. The bounce rate refers to how many people leave your site after viewing only one page.Although there are several factors that influence the bounce rate—such as search engine optimization—most bounces occur because users think they found what they were looking for and don't see any reason to stay on your site. In other words, if people don't stay long enough to get something out of your content or advertising, the bounce rate will go up. There are three major causes of high bounce rates: Not giving a clear call-to-action Not providing readers with what they're looking for on landing pages Making visitors work too hard to find informationCheck out these practical ways to reduce your site's bounce rate and make more money from every customer you have:1. Clearly identify each page's purpose and CTA: The purpose of each page on your site should be very clear at all times, including when someone lands on it through a search result or another link. If it isn't immediately obvious to readers where they've ended up and what they'll accomplish by staying on your website, visitors won't bother sticking around. You can achieve clarity in a number of ways; choose CTAs appropriate for each unique situation.2. Describe what's missing: Providing context can encourage visitors to stick around even if they didn't land on a specific destination. For example, suppose you want to create a LinkedIn profile but somehow end up on a Yahoo home page instead. When Yahoo shows its famous 404 File Not Found error message, do you know what went wrong? Chances are,  you simply mistyped a URL. By indicating where visitors expected to go (and perhaps even suggesting alternative URLs), custom 404 pages allow visitors to recover from mistakes quickly.3. Remove unnecessary steps: When designing your custom 404 page, ask yourself whether it would confuse or frustrate new readers who land there accidentally. For instance, imagine you run a jewelry shop and use Facebook to promote your products. Let's say someone clicks on a link to your Facebook page and arrives on your 404 page. This individual probably expects to see links for related products or some indication of what brought them there. Instead, they see nothing relevant whatsoever. Such a jarring lack of explanation will likely make the user feel frustrated, confused, and unwanted: exactly what you hope to avoid in their current state of mind.4. Explain to users what they're seeing: Give your visitors a hint about what kind of error took them to that page—for example, “Oops, we can't find what you were looking for!” or “Sorry, we don't have an English version of this page!” Use action verbs and first-person POV (I can't find... and We don't offer... rather than You can't... and We don't offer...) to keep readers engaged while they search for exactly what they need.As you craft your custom 404 error page, keep these four tips in mind to help make it both informational and engaging. Avoid letting frustrating situations discourage future readers from taking action on your site. One of the biggest reasons for poor site usability is a poorly-organized navigation system. Visitors need to be able to easily find their way around if they're going to remain engaged and productive, so it's important that you plan ahead before launching your site.How To Create a 404 Page on WordPress?Start by looking at your WordPress dashboard; you’ll see a number of options to choose from on the lefthand side of your screen. Click on “Appearances” under Products and then choose “404 Page.” You can enter some information about the kind of post (e.g., Error Message), but all you really need is some text, for example, “Page not found.” Make sure you add all the elements mentioned above and then click on Publish when you’re done. You can also use plugins to create contact forms, improve SEO, add widgets, etc. Here is the super-fast &amp; simple tutorial on how to make it with the Elementor plugin.How To Create On-Site Makers: Wix, Shopify, and OthersMost websites use custom-built JavaScript code or third-party software to create their customized 404 pages. Wix, for example, includes a tool that allows you to build your own 404 not found page that fits your brand. This tool generates web code that you can copy and paste into your website’s home page, meaning it will show up whenever someone tries to visit a broken link on your site. If you prefer Shopify as your platform of choice, you can choose from its default templates or create your own custom 404 page layout: You can also add a customized background and elements such as a search bar to improve user experience.Error 404 Page Design Best PracticesAlthough there are plenty of great 404 error page design templates out there, your website’s unique content and style can give you an edge in providing a polished user experience. Here are some best practices for 404 error page design that you can use as inspiration. Keep them in mind when selecting or creating any type of web design template; they’ll help you create a responsive 404 error page that feels at home on your site. Don’t make users hunt for what they were looking for: A custom 404 error page should guide users who have clicked a broken link back to where they want to be, rather than force them through multiple steps to get back on track. Include a short description of your company on every 404 error page — and link to it from each potentially broken URL, so visitors never feel lost while hunting around! Add useful information about a broken link: Even if you don’t actually provide a replacement for missing content, consider adding other relevant information about why a specific piece of content isn’t currently available (i.e., Sale items are only available online until January 20th). This adds context and usefulness without making visitors click more links. Include an obvious call-to-action: If you have a strong conversion goal associated with each 404 error page visit, add a “click here” CTA button to encourage visitors to explore your site further. The cleaner your 404 error page is, and the less disruptive errors appear, the easier it will be for someone to act immediately after seeing yours! Use redirection tools wherever possible: Redirecting traffic via scripting is typically much faster than forcing every visitor to leave their current website before being redirected elsewhere. If you’re trying to collect contact information from visitors who entered a missing landing page URL manually, using both redirection scripts AND a quick form that allows people to enter their email address themselves could be ideal. Be honest in your explanation: Honesty sells—even when it comes to explaining why something doesn’t exist anymore. Say as little as possible, but no more than necessary; let customers know right away why they landed on a 404 error page.Lead customers by example: Implement custom 404 error pages across all of your sites — even ones not owned by you. Your consistent messaging gives customers peace of mind that they haven’t accidentally found a bad link somewhere along their browsing journey, and it makes it clear to everyone exactly how seriously you take your business endeavors. You’d hate to lose a potential customer because they mistakenly got frustrated and jumped ship, so it’s a smart practice to avoid potential trouble. Check out the following design ideas for inspiration:Sitechecker WP Forms Disney Netflix Tripadvisor GitHub Ahrefs YouTube Amazon Linkedin When it comes to designing your own 404 page, you can either hire a freelancer, work with a design agency, or do it yourself. Your decision should depend on the budget that you have and the skills required to complete the task.ConclusionWhile you should ensure that your 404 pages are top-notch, it’s best to minimize their existence. Luckily, there are a few simple fixes to 404 error pages. Firstly, reload the page if necessary. Because of a poor internet connection, a web page may not load properly at times. Simply use the &quot;refresh&quot; button on your browser.You can also try clearing the cache and cookies on your computer. Simply open a website or web page in a different browser. If the HTTP 404 error only appears on one machine, the issue could be with your browser. If the site is functional, you should clear your browser's cache and cookies. Follow this comprehensive guide on Google cache for additional information on browser cache and how to remove cache in your browser.Moreover, make your way around the website. Use a website search to find a needed web page; simply type in precise terms to find the page you're looking for. You can contact the webmaster directly if this does not work.Other difficulties with 4xx pages must be resolved, such as when the AMP Page URL (4XX) is not detected, 4xx pages obtain organic traffic, or 4xx pages are found in the Sitemap.",
+    "author": {
+        "@type": "Person",
+        "name": "Iryna Krutko",
+        "image": "https://sitechecker.pro/wp-content/uploads/2021/03/Ирина_SEO_specialist.png",
+        "url": "https://sitechecker.pro/author/iryna-krutkoo/",
+        "description": "Iryna is SEO expert at Sitechecker. She is responsible for Web hosting categories and reviews. Obsessed with creating valuable content and analytics.",
+        "sameAs": [
+            "https://www.facebook.com/iryna.berdetska/"
+        ]
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Sitechecker.pro",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://sitechecker.pro/wp-content/uploads/2018/11/Logo.png"
+        }
+    }
+}</script>
+<footer class=footer-main-page>
+<div class=footer>
+<div class=wrapper>
+<div class=menu-wrap>
+<div class=footer__menu>
+<p>Products</p>
+<ul><li id=menu-item-19717 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19717"><a href="https://sitechecker.pro/website-crawler/">Website Crawler</a></li>
+<li id=menu-item-19718 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19718"><a href="https://sitechecker.pro/website-monitoring/">Site Monitoring</a></li>
+<li id=menu-item-19719 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19719"><a href="https://sitechecker.pro/rank-tracker/">Rank Tracker</a></li>
+<li id=menu-item-19720 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19720"><a href="https://sitechecker.pro/backlinks-tracker/">Backlink Tracker</a></li>
+<li id=menu-item-19721 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19721"><a href="https://sitechecker.pro/seo-chrome-extension/">SEO Chrome Extension</a></li>
+<li id=menu-item-19722 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19722"><a href="https://sitechecker.pro/white-label/">White Label</a></li>
+<li id=menu-item-19724 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19724"><a href="https://sitechecker.pro/seo-dashboard/">SEO Dashboard</a></li>
+</ul> </div>
+<div class=footer__menu>
+<ul><li id=menu-item-14141 class="footer-menu__title-link menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14141"><a href="https://sitechecker.pro/category/free-seo-tools/">Free SEO Tools</a></li>
+<li id=menu-item-13879 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13879"><a href="https://sitechecker.pro/on-page-seo-checker/">On-Page SEO Checker</a></li>
+<li id=menu-item-13880 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13880"><a href="https://sitechecker.pro/traffic-checker/">Website Traffic Checker</a></li>
+<li id=menu-item-13881 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13881"><a href="https://sitechecker.pro/website-safety/">Website Safety Checker</a></li>
+<li id=menu-item-13882 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13882"><a href="https://sitechecker.pro/website-down/">Website Down Checker</a></li>
+<li id=menu-item-13883 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13883"><a href="https://sitechecker.pro/rank-checker/">Website Rank Checker</a></li>
+<li id=menu-item-13884 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13884"><a href="https://sitechecker.pro/hosting-checker/">Website Hosting Checker</a></li>
+<li id=menu-item-13885 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13885"><a href="https://sitechecker.pro/speed-test/">Website Speed Checker</a></li>
+<li id=menu-item-13887 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13887"><a href="https://sitechecker.pro/broken-links/">Website Broken Link Checker</a></li>
+<li id=menu-item-21295 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21295"><a href="https://sitechecker.pro/page-counter/">Website Page Counter</a></li>
+</ul> </div>
+<div class=footer__menu>
+<p>Company</p>
+<ul><li id=menu-item-13857 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13857"><a href="/about-company/">About Us</a></li>
+<li id=menu-item-13862 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13862"><a href="https://sitechecker.pro/careers/">Careers</a></li>
+<li id=menu-item-13859 class="contact-item-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-13859"><a>Contact</a></li>
+<li id=menu-item-13863 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13863"><a href="https://sitechecker.pro/terms-and-conditions/">Terms &#038; Conditions</a></li>
+<li id=menu-item-13864 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13864"><a href="https://sitechecker.pro/privacy-policy/">Privacy Policy</a></li>
+</ul> </div>
+<div class=footer__menu>
+<p>Resources</p>
+<ul><li id=menu-item-22048 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22048"><a href="https://sitechecker.pro/blog/">Blog</a></li>
+<li id=menu-item-13873 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13873"><a href="https://sitechecker.pro/category/product-blog/">Product Updates</a></li>
+<li id=menu-item-13874 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13874"><a target=_blank rel="noopener noreferrer" href="https://sitechecker.nolt.io/">Features Roadmap</a></li>
+<li id=menu-item-13875 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13875"><a target=_blank rel="noopener noreferrer" href="https://help.sitechecker.pro/">Help Center</a></li>
+<li id=menu-item-13876 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13876"><a href="https://sitechecker.pro/customer-stories/">Customer Stories</a></li>
+<li id=menu-item-13877 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13877"><a href="https://sitechecker.pro/educational-partnership/">Educational Partnership</a></li>
+<li id=menu-item-13878 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13878"><a href="https://sitechecker.pro/web-hosting/">Web Hosting Reviews</a></li>
+<li id=menu-item-14283 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14283"><a href="https://sitechecker.pro/affiliate-partnership/">Affiliate Program</a></li>
+<li id=menu-item-22051 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22051"><a href="https://sitechecker.pro/newsletter/">SEO Newsletter</a></li>
+</ul> </div>
+<div class=footer__menu>
+<p>Follow us</p>
+<ul>
+<li><a href="https://twitter.com/sitecheckerpro/" target=_blank><i class="fab fa-twitter"></i> Twitter</a></li>
+<li><a href="https://www.facebook.com/sitecheckerpro/" target=_blank><i class="fab fa-facebook-f"></i> Facebook</a></li>
+<li><a href="https://www.linkedin.com/company/sitechecker-pro" target=_blank><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+<li><a href="https://www.youtube.com/channel/UCd2OR5M9Mzdip2C5Z_9Xdxg" target=_blank><i class="fab fa-youtube"></i> YouTube</a></li>
+</ul>
+</div>
+</div>
+<div class=footer-meta>
+<div class=footer-meta-main>
+<img width=158 height=28 src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/logo-white.svg" alt="sitechecker.pro blue logo" loading=lazy data-pagespeed-url-hash=252394916 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<p>© 2023 Sitechecker. All rights reserved.</p>
+</div>
+<p class=footer__logo-info><span>|</span> sitechecker.pro is owned and operated by Boosta Inc OÜ Peterburi tee 47, Tallinn city, Harju county, 11415, Estonia</p>
+</div>
+</div>
+</div>
+</footer>
+<div class=image__popup>
+<div class=circle-loader></div>
+<img src="https://sitechecker.pro/wp-content/themes/sitechecker/out/img_design/close.svg" alt=close class=popup-close data-pagespeed-url-hash=1573240839 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="" class=description-img-lg onload="afterImgLoad();" data-pagespeed-url-hash=3567557335>
+</div>
+<script>var MyModals={"modalWarning":"<div class=\"warning-note info-popup\">\n    <svg class=\"warning-note__close\" width=\"11\" height=\"10\" viewBox=\"0 0 11 10\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n        <path d=\"M10.5069 1.00637L9.49954 -0.000976562L5.50588 3.99268L1.51223 -0.000976562L0.504883 1.00637L4.49854 5.00002L0.504883 8.99368L1.51223 10.001L5.50588 6.00737L9.49954 10.001L10.5069 8.99368L6.51323 5.00002L10.5069 1.00637Z\" fill=\"#70829A\"\/>\n    <\/svg>\n    <div class=\"warning-note__status\">\n        <div class=\"warning-note__title\">Sitechecker can\u2019t <span class=\"type-action\">crawl<\/span> this website, because the home page responds <span class=\"warning-status\"><\/span> HTTP status code.<\/div>\n        This can happen for several reasons.\n        <ul class=\"warning-note__list\">\n            <li>The website is available only in specific countries.<\/li>\n            <li>No such domain is registered or domain expired.<\/li>\n        <\/ul>\n        Please, enter a working website or <a href=\"https:\/\/help.sitechecker.pro\/article\/91-how-to-control-sitechecker-robot\" target=\"_blank\" rel=\"nofollow\">make this website accessible to the Sitechecker bot.<\/a>\n    <\/div>\n    <div class=\"warning-note__chain\">\n        <div class=\"warning-note__title\">Sitechecker can\u2019t <span class=\"type-action\">crawl<\/span> this website, because it has too many redirects.<\/div>\n        <p>Often this is the result of competing redirects, one trying to force HTTPS (SSL) and another redirecting back to HTTP (non-SSL), or between www and non-www forms of the URL.<\/p>\n        <p>Please, contact your hosting provider or web developer to fix this issue or paste another website.<\/p>\n    <\/div>\n    <div class=\"warning-note__blacklist\">\n        <div class=\"warning-note__title\">It's looks like the domain <span class=\"domain-user\">domain name<\/span> was blacklisted in our database.<\/div>\n        <p>It means that the owner asked us to add this domain to our blacklist to prevent future requests from our crawling bot. <\/p>\n        <p>We can delete the website from our blacklist only if the owner asks for it.<\/p>\n        <p>If you are the owner, please contact our support in  any convenient way (chat, email, etc.)<\/p>\n    <\/div>\n    <div class=\"warning-note__blocked\">\n        <div class=\"warning-note__title\">Sitechecker bot is not allowed to crawl this website.<\/div>\n        The most likely reasons:\n        <ul class=\"warning-note__list\">\n            <li>Sitechecker bot is blocked in robots.txt file or .htaccess file.<\/li>\n            <li>Sitechecker bot is blocked by tools of automatic server protection.<\/li>\n        <\/ul>\n        Please read <a href=\"https:\/\/help.sitechecker.pro\/article\/91-how-to-control-sitechecker-robot\" target=\"_blank\" rel=\"nofollow\">our guide on how to make this website accessible to Sitechecker bot.<\/a>\n    <\/div>\n    <div class=\"warning-note__redirect\">\n        <div class=\"warning-note__title\">Sitechecker can\u2019t check this website, because the home page responds <span class=\"warning-status\"><\/span> HTTP status code.<\/div>\n        <p><span class=\"domain-user\">Domain name<\/span><br>redirects to<br><span class=\"domain-valid\">{domain_200}<\/span><\/p>\n    <\/div>\n    <div class=\"warning-note__tech\">\n        <div class=\"warning-note__title\">Can't check your domain for validity within the allotted time.<\/div>\n    <\/div>\n<\/div>","modalRedirect":"<div class=\"warning-301 popup-overlay info-popup\">\n    <div class=\"warning-301__block popup-block\">\n        <svg class=\"popup-block__close\" width=\"21\" height=\"20\" viewBox=\"0 0 21 20\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <path d=\"M18.8382 3.34526L17.1597 1.66669L10.5049 8.32145L3.85013 1.66669L2.17155 3.34526L8.82632 10L2.17155 16.6548L3.85013 18.3334L10.5049 11.6786L17.1597 18.3334L18.8382 16.6548L12.1835 10L18.8382 3.34526Z\" fill=\"#99A6B7\"\/>\n        <\/svg>\n        <p class=\"popup-block__title\"><span class=\"domain-user\">Domain name<\/span><br>redirects to<br><span class=\"domain-valid\">{domain_200}<\/span><\/p>\n        <p class=\"popup-block__text\">Do you want to <span class=\"type-action\">crawl<\/span> <span class=\"domain-valid\">{domain_200}<\/span> instead of<br> <span class=\"domain-user\">{domain_301}<\/span>?<\/p>\n        <div class=\"popup-block__controls\">\n            <button class=\"btns btns-no btns-stroked\">No, cancel <span class=\"type-action\">crawl<\/span>ing<\/button>\n            <button class=\"btns btns-yes btns-full\">Yes, <span class=\"type-action\">crawl<\/span><\/button>\n        <\/div>\n    <\/div>\n<\/div>","bannerCookie":"<div class=\"footer__cookie\">\n    <div class=\"wrapper\">\n        <img src=\"https:\/\/sitechecker.pro\/wp-content\/themes\/sitechecker\/out\/img\/close_btn.svg\" alt=\"close\" class=\"footer__cookie-close\">\n        <img src=\"https:\/\/sitechecker.pro\/wp-content\/themes\/sitechecker\/out\/img\/cookies.svg\" alt=\"cookies\" class=\"footer__cookie-img\">\n        <p>This website uses 'cookies' to give you the best, most relevant experience. Using this website means you agree with this. Find out more about 'cookies' in our <a href=\"\/privacy-policy\/\" target=\"_blank\">Privacy Policy<\/a>.<\/p>\n    <\/div>\n<\/div>","loginPopup":"<div class=\"login__popup limitPopup\">\n    <div class=\"login__popup-block\">\n                <img src=\"https:\/\/sitechecker.pro\/wp-content\/themes\/sitechecker\/out\/img_design\/close.svg\" alt=\"close\" class=\"login__popup-close\" loading=\"lazy\">\n                <div class=\"limit__popup\">\n            <div class=\"text\">Get free access to Sitechecker features including:<\/div>\n            <ul class=\"products\">\n                                <li>\n                    <div class=\"products__description\">\n                        <p>Site Audit<\/p>\n                        <span>Improve your website\u2019s on-page and technical SEO<\/span>\n                    <\/div>\n                <\/li>\n                                <li>\n                    <div class=\"products__description\">\n                        <p>Site Monitoring<\/p>\n                        <span>Monitor all your website\u2019s changes 24\/7<\/span>\n                    <\/div>\n                <\/li>\n                                <li>\n                    <div class=\"products__description\">\n                        <p>Assistant<\/p>\n                        <span>Get personalized step-by-step SEO instructions<\/span>\n                    <\/div>\n                <\/li>\n                                <li>\n                    <div class=\"products__description\">\n                        <p>Rank Tracker<\/p>\n                        <span>Get clear keywords reports with an accurate daily rank tracker<\/span>\n                    <\/div>\n                <\/li>\n                                <li>\n                    <div class=\"products__description\">\n                        <p>GA and GSC integrations<\/p>\n                        <span>Turn data from your Google Search Console and Google Analytics accounts into actions<\/span>\n                    <\/div>\n                <\/li>\n                            <\/ul>\n        <\/div>\n        <div class=\"limit__popup-sign\">\n            <div class=\"signin__block\">\n                <div class=\"login__popup-form\">\n                    <p class=\"title\">Sign in<\/p>\r\n<div class=\"login__social\">\r\n    <div ><div class=\"the_champ_login_container\"><ul class=\"the_champ_login_ul\"><li><i class=\"theChampLogin theChampFacebookBackground theChampFacebookLogin\" alt=\"Login with Facebook\" title=\"Login with Facebook\" onclick=\"theChampInitiateLogin(this)\" ><ss style=\"display:block\" class=\"theChampLoginSvg theChampFacebookLoginSvg\"><\/ss><div class=\"btn-wrap-txt\"><div class=\"btn-trial-txt\">Start trial with Google<\/div><div class=\"btn-trial-txt\">No credit card needed<\/div><\/div><\/i><\/li><li><i id=\"theChampGoogleButton\" class=\"theChampLogin theChampGoogleBackground theChampGoogleLogin\" alt=\"Login with Google\" title=\"Login with Google\" onclick=\"theChampInitiateLogin(this)\" ><ss style=\"display:block\" class=\"theChampLoginSvg theChampGoogleLoginSvg\"><\/ss><div class=\"btn-wrap-txt\"><div class=\"btn-trial-txt\">Start trial with Google<\/div><div class=\"btn-trial-txt\">No credit card needed<\/div><\/div><\/i><\/li><\/ul><\/div><\/div><div style=\"clear:both\"><\/div><\/div>\r\n<div class=\"login__popup-or\">\r\n    <span>or email<\/span>\r\n<\/div>\r\n<form name=\"loginform\" id=\"loginform1\" action=\"\/?instance=1\" method=\"post\" class=\"form__signin\">\r\n    <div class=\"form__input\">\r\n        <div class=\"label\">\r\n            <label for=\"loginFormEmail\" class=\"sr-only\">E-mail input field in login form.<\/label>\r\n            <input id=\"loginFormEmail\" type=\"text\" name=\"log\" class=\"email\" value=\"\" placeholder=\" \">\r\n            <span>Your email<\/span>\r\n        <\/div>\r\n        <p class=\"login_popup-error error_email\"><\/p>\r\n    <\/div>\r\n    <div class=\"form__input\">\r\n        <div class=\"label\">\r\n            <label for=\"loginFormPass\" class=\"sr-only\">Password input field in login form.<\/label>\r\n            <input id=\"loginFormPass\" type=\"password\" name=\"pwd\" value=\"\" autocomplete=\"off\" class=\"pass\" placeholder=\" \">\r\n            <span>Password<\/span>\r\n        <\/div>\r\n        <p class=\"login_popup-error error_pass\"><\/p>\r\n    <\/div>\r\n\r\n    <input type=\"hidden\" name=\"_wp_original_http_referer\" value=\"\/custom-404-page\/\" \/>\r\n    <div class=\"tml-rememberme-submit-wrap\">\r\n        <p class=\"tml-submit-wrap\">\r\n            <input type=\"submit\" name=\"wp-submit\" class=\"popup__login-btn btn-app\"\r\n                   value=\"Sign in\"\/>\r\n            <span class=\"loader\"><\/span>\r\n                        <input type=\"hidden\" name=\"redirect_to\" value=\"http:\/\/sitechecker.pro\/custom-404-page\/\" \/>\r\n            <input type=\"hidden\" name=\"instance\" value=\"1\"\/>\r\n            <input type=\"hidden\" name=\"action\" value=\"login\"\/>\r\n        <\/p>\r\n    <\/div>\r\n<\/form>\r\n\n                    <button class=\"popup__pass\" type=\"button\">Forgot password?<\/button>\n                <\/div>\n                <div class=\"login__popup-actions\">\n                    <div class=\"popup-actions__wrapper\">\n                        <span>Don't have an account?<\/span>\n                        <button class=\"popup__signup\" type=\"button\">Sign up<\/button>\n                    <\/div>\n                <\/div>\n            <\/div>\n            <div class=\"signup__block\">\n                <div class=\"login__popup-form\">\n                    <p class=\"free_trial-signup\">7-day free trial<\/p>\n                    <p class=\"free_trial-signup-description\">No credit card required.<\/p>\n                    <div class=\"login__social\">\n    <div ><div class=\"the_champ_login_container\"><ul class=\"the_champ_login_ul\"><li><i class=\"theChampLogin theChampFacebookBackground theChampFacebookLogin\" alt=\"Login with Facebook\" title=\"Login with Facebook\" onclick=\"theChampInitiateLogin(this)\" ><ss style=\"display:block\" class=\"theChampLoginSvg theChampFacebookLoginSvg\"><\/ss><div class=\"btn-wrap-txt\"><div class=\"btn-trial-txt\">Start trial with Google<\/div><div class=\"btn-trial-txt\">No credit card needed<\/div><\/div><\/i><\/li><li><i id=\"theChampGoogleButton\" class=\"theChampLogin theChampGoogleBackground theChampGoogleLogin\" alt=\"Login with Google\" title=\"Login with Google\" onclick=\"theChampInitiateLogin(this)\" ><ss style=\"display:block\" class=\"theChampLoginSvg theChampGoogleLoginSvg\"><\/ss><div class=\"btn-wrap-txt\"><div class=\"btn-trial-txt\">Start trial with Google<\/div><div class=\"btn-trial-txt\">No credit card needed<\/div><\/div><\/i><\/li><\/ul><\/div><\/div><div style=\"clear:both\"><\/div><\/div>\n<div class=\"login__popup-or\">\n    <span>or email<\/span>\n<\/div>\n<form name=\"registerform\" id=\"registerform2\" action=\"\/?instance=2\" method=\"post\" class=\"form__signup\">\n    <div class=\"form__input\">\n        <div class=\"label\">\n            <label for=\"registerFormEmail\" class=\"sr-only\">E-mail input field in register form.<\/label>\n            <input id=\"registerFormEmail\" type=\"text\" name=\"user_email\" class=\"email\" value=\"\" size=\"20\" placeholder=\" \">\n            <span>Your email<\/span>\n        <\/div>\n        <p class=\"login_popup-error error_email\"><\/p>\n    <\/div>\n        <div class=\"form__input\">\n        <div class=\"label\">\n            <label for=\"registerFormPass\" class=\"sr-only\">Password input field in register form.<\/label>\n            <input id=\"registerFormPass\" autocomplete=\"off\" name=\"pass1\" class=\"pass\" size=\"20\" value=\"\" type=\"password\" placeholder=\" \">\n            <span>Password<\/span>\n        <\/div>\n        <p class=\"login_popup-error error_pass\"><\/p>\n    <\/div>\n        <p class=\"tml-submit-wrap registr-tml-submit-wrap\">\n        <input type=\"submit\" name=\"wp-submit\" class=\"btn-app\" value=\"Sign up\" \/>\n        <span class=\"loader\"><\/span>\n                <input type=\"hidden\" name=\"redirect_to\" value=\"https:\/\/sitechecker.pro\/custom-404-page\/\" \/>\n        <input type=\"hidden\" name=\"domains\">\n        <input type=\"hidden\" name=\"register_url\" value=\"main-funnel\" \/>\n        <input type=\"hidden\" name=\"instance\" value=\"2\" \/>\n        <input type=\"hidden\" name=\"action\" value=\"register\" \/>\n    <\/p>\n<\/form>\n<script>\n    var LoginErrors = {\n        'EmailEmpty' : '<strong>ERROR<\/strong>: The email field is empty.',\n        'EmailNotCorrect' : '<strong>ERROR<\/strong>: The email address isn\u2019t correct.',\n        'EmailNotExist' : '<strong>ERROR<\/strong>: This e-mail does not exist.',\n        'EmailExist' : '<strong>ERROR<\/strong>: This e-mail already exists.',\n        'PassError' : '<strong>ERROR<\/strong>: The password is incorrect.',\n        'PassIncorrect' : '<strong>ERROR<\/strong>: Your password must be at least 6 characters in length.'\n    }\n<\/script>\n\n                    <div class=\"login__terms\">By clicking button \"Sign up\", \"Sign up with Facebook\" or \"Sign up with Google\" you agree to our <a href=\"\/terms-and-conditions\/\">Terms and Conditions<\/a> and <a href=\"\/privacy-policy\/\">Privacy Policy<\/a>. We\u2019ll occasionally send you account related and promo emails.<\/div>\n                <\/div>\n                <div class=\"login__popup-actions\">\n                    <div class=\"popup-actions__wrapper\">\n                        <p>Already have an account?<\/p>\n                        <button class=\"popup__signin\">Sign in<\/button>\n                    <\/div>\n                <\/div>\n            <\/div>\n            <div class=\"resetpass__block\">\n                <div class=\"resetpass__popup-form\">\n                    <p class=\"title\">Reset Password<\/p>\n<p class=\"description\">Enter your e-mail to reset your password<\/p>\n<form name=\"lostpasswordform\" id=\"lostpasswordform3\" action=\"\/?instance=3\" method=\"post\" class=\"form__lostpass\">\n    <div class=\"form__input\">\n        <div class=\"label\">\n            <label for=\"lostPassFormEmail\" class=\"sr-only\">E-mail input field in reset password form.<\/label>\n            <input id=\"lostPassFormEmail\" type=\"email\" name=\"user_login\" value=\"\" class=\"email\" placeholder=\" \">\n            <span>Your email<\/span>\n        <\/div>\n        <p class=\"login_popup-error error_email\"><\/p>\n    <\/div>\n    <div class=\"form__input-captcha\">\n        <div class=\"g-recaptcha\" data-callback=\"recaptcha_callback\" data-sitekey=\"6LckzVMaAAAAABgI4KVuX3z7w9z7TgWDOPfQ1Vyq\"><\/div>\n    <\/div>\n        <p class=\"tml-submit-wrap\">\n        <input class=\"btn-app btn-form-captcha\" disabled=\"true\" type=\"submit\" name=\"wp-submit\" value=\"Send me new password\" \/>\n        <span class=\"loader\"><\/span>\n                <input type=\"hidden\" name=\"redirect_to\" value=\"?checkemail=confirm\" \/>\n        <input type=\"hidden\" name=\"instance\" value=\"3\" \/>\n        <input type=\"hidden\" name=\"action\" value=\"lostpassword\" \/>\n    <\/p>\n<\/form>\n\n                <\/div>\n                <div class=\"login__popup-actions\">\n                    <div class=\"popup-actions__wrapper\">\n                        <p>Don't have an account?<\/p>\n                        <button class=\"popup__signup\">Sign up<\/button>\n                    <\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n<script class=\"script-recaptcha\" src=\"https:\/\/www.google.com\/recaptcha\/api.js\" async defer><\/script>\n"};</script>
+<link rel=stylesheet id=pages-template-design-css href='https://sitechecker.pro/wp-content/themes/sitechecker/out/styles/pages-template-design.min.css?ver=1671716224' media=all />
+<script type='text/javascript' id=thickbox-js-extra>var thickboxL10n={"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/sitechecker.pro\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};</script>
+<script type='text/javascript' src='https://sitechecker.pro/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105' id=thickbox-js></script>
+<script type='text/javascript' src='https://sitechecker.pro/wp-content/plugins/super-socializer/js/front/combined.js?ver=7.12.39' id=the_champ_combined_script-js></script>
+<script type='text/javascript' src='https://accounts.google.com/gsi/client?ver=5.5.11' id=one-tap-client-js-js></script>
+<script type='text/javascript' src='https://sitechecker.pro/wp-content/themes/sitechecker/out/js/scripts-design-pages-template-min.js?ver=1671716224' id=scripts-design-pages-template-js></script>
+<script type='text/javascript' src='https://sitechecker.pro/wp-includes/js/wp-embed.min.js?ver=5.5.11' id=wp-embed-js></script>
+<div id=g_id_onload data-client_id=790672782215-akrfmc800fgl1gr6om4dmjepvg8lrggb.apps.googleusercontent.com data-login_uri="https://sitechecker.pro/?gotl-signin&freetrial=1" data-wpnonce=fcab715bbe data-redirect_uri="https://sitechecker.pro/jak-stworzyc-niestandardowa-strone-404-z-wlasnym-projektem" data-auto_prompt=false></div><script>let gotlShow,gotlInited=false;let gotlCallback=function(){if(gotlInited===false){return;}let user=JSON.parse(localStorage.getItem('sitechecker_user'));if(!user.logged_in&&!gotlShow){google.accounts.id.prompt();gotlShow=true;}else if(user.logged_in&&gotlShow){google.accounts.id.cancel();gotlShow=false;}}
+document.addEventListener('sc_update_user',gotlCallback);window.onGoogleLibraryLoad=()=>{gotlInited=true;gotlCallback();};</script>
+<script src="https://sitechecker.pro/wp-content/themes/sitechecker/javascripts/iniframe-logic.js?1671716224"></script>
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2SCB2J" height=0 width=0 style="display:none;visibility:hidden"></iframe>
+</noscript>
+</body>
+</html>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ef12292e4be89db"></script>
