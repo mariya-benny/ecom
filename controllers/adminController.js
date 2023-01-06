@@ -12,12 +12,14 @@ let adminSession = false || {}
 let orderType = 'all';
 
 const path = require('path')
-// const multer = require('multer')
+
 const { CLIENT_RENEG_LIMIT } = require('tls')
 
+
+// Admin login.........................
 const adminloadLogin = async (req, res) => {
   try {
-    res.render('Login')
+    res.render('login')
   } catch (error) {
     console.log(error.message)
   }
@@ -33,7 +35,7 @@ const verifyLogin = async (req, res) => {
       const passwordMatch = await bcrypt.compare(password, userData.password)
       if (passwordMatch) {
         if (userData.is_admin === 0) {
-          res.render('Login', { message: 'Email and password is incorrect.' })
+          res.render('login', { message: 'Email and password is incorrect.' })
         } else {
           adminSession = req.session
           isAdminLoggedin = true
@@ -42,15 +44,17 @@ const verifyLogin = async (req, res) => {
           console.log('Admin logged in')
         }
       } else {
-        res.render('Login', { message: 'Email and password is incorrect.' })
+        res.render('login', { message: 'Email and password is incorrect.' })
       }
     } else {
-      res.render('Login', { message: 'Email and password is incorrect.' })
+      res.render('login', { message: 'Email and password is incorrect.' })
     }
   } catch (error) {
     console.log(error.message)
   }
 }
+
+// Admin home...............................
 
 const adminHome = async (req, res) => {
   try {
@@ -81,7 +85,6 @@ const adminHome = async (req, res) => {
   }
   for(let i=0;i<completeorder.length;i++){
     for(let j = 0;j<completeorder[i].products.item.length;j++){
-      console.log("jfhf");
        const cataData = completeorder[i].products.item[j].productId.category
        const isExisting = categoryArray.findIndex(category => {
         return category === cataData
@@ -93,9 +96,6 @@ const adminHome = async (req, res) => {
   const productCount = await Product.count()
   const usersCount = await User.count({is_admin:0})
   const totalCategory = await Category.count({is_available:1})
-
-console.log(categoryArray);
-console.log(orderCount);
 
     res.render('home', {
       users: userData,
@@ -118,6 +118,8 @@ console.log(orderCount);
     console.log(error.message)
   }
 }
+
+// Users................................
 
 const viewUser = async (req, res) => {
   try {
@@ -143,6 +145,8 @@ const blockUser = async (req, res) => {
   }
 }
 
+// Product..................................
+
 const viewProduct = async (req, res) => {
   const productData = await Product.find()
   res.render('adminProduct', { products: productData })
@@ -150,7 +154,6 @@ const viewProduct = async (req, res) => {
 
 const addProductLoad = async (req, res) => {
   const categoryData = await Category.find()
-  console.log(categoryData)
   res.render('addProduct', { category: categoryData })
 }
 
@@ -181,8 +184,6 @@ const updateAddProduct = async (req, res) => {
       rating: req.body.pRating,
       image: files.map((x)=>x.filename),
     })
-    // console.log(req.body.pCategory)
-    // console.log(product)
     const productData = await product.save()
     if (productData) {
       res.render('addProduct', {
@@ -196,10 +197,6 @@ const updateAddProduct = async (req, res) => {
     console.log(error.message)
   }
 }
-
-
-
-
 
 const updateEditProduct = async (req, res) => {
   try {
@@ -248,34 +245,6 @@ const updateEditProduct = async (req, res) => {
   }
 }
      
-
-
-
-// const updateEditProduct = async (req, res) => {
-//   try {
-//     const files=req.files
-//     const productData = await Product.findByIdAndUpdate(
-//       { _id: req.body.id },
-//       {
-//         $set: {
-//           name: req.body.pName,
-//           category: req.body.pCategory,
-//           price: req.body.pPrice,
-//           quantity: req.body.pQuantity,
-//           rating: req.body.pRating,
-//           image: files.map((x)=>x.filename),
-//         }
-//       }
-//     )
-//     console.log(productData)
-//     await productData.save()
-//     console.log(productData)
-//     res.redirect('/admin/adminProduct')
-//   } catch (error) {
-//     console.log(error.message)
-//   }
-// }
-
 const blockProduct = async (req, res) => {
   try {
     const id = req.query.id
@@ -302,17 +271,7 @@ const unblockProduct = async (req, res) => {
   }
 }
 
-const adminLogout = async (req, res) => {
-  try {
-    adminSession = req.session
-    adminSession.adminId = null
-    isAdminLoggedin = false
-    console.log('admin logged out')
-    res.redirect('/admin')
-  } catch (error) {
-    console.log(error.message)
-  }
-}
+// Category.................................
 
 const loadCategory = async (req, res) => {
   try {
@@ -344,20 +303,7 @@ const insertCategory = async (req, res) => {
   }
 }
 
-// const blockUser = async (req, res) => {
-//   try {
-//     const id = req.query.id
-//     const userData = await User.findById({ _id: id })
-//     if (userData.is_verified) {
-//       await User.findByIdAndUpdate({ _id: id }, { $set: { is_verified: 0 } })
-//     } else {
-//       await User.findByIdAndUpdate({ _id: id }, { $set: { is_verified: 1 } })
-//     }
-//     res.redirect('/admin/adminUser')
-//   } catch (error) {
-//     console.log(error.message)
-//   }
-// }
+
 
 const manageCategory = async (req, res) => {
   try {
@@ -368,14 +314,14 @@ const manageCategory = async (req, res) => {
     } else {
     await Category.findByIdAndUpdate({ _id: id }, { $set: { is_active: 1 } })
   }
-    // await Category.deleteOne({ _id: id })
+    
      res.redirect('/admin/loadCategory')
   } catch (error) {
     console.log(error.message)
   }
 }
 
-
+// Coupon...........................
 
 const offer = async (req, res) => {
   try {
@@ -418,6 +364,8 @@ const deleteOffer = async (req, res) => {
   }
 }
 
+// Banners...................................
+
 const loadBanners = async (req, res) => {
   try {
     const bannerData = await Banner.find()
@@ -432,9 +380,7 @@ const loadBanners = async (req, res) => {
 const addBanner = async (req, res) => {
   try {
     const newBanner = req.body.banner
-    // console.log(newBanner)
     const a = req.files
-    // console.log(req.files)
     const banner = new Banner({
       banner: newBanner,
       bannerImage: a.map((x) => x.filename)
@@ -458,6 +404,8 @@ const currentBanner = async (req, res) => {
     console.log(error.message)
   }
 }
+
+// Orders...............................
 
 const viewOrder = async(req,res)=>{
   try {
@@ -527,12 +475,13 @@ const adminOrderDetails = async(req,res)=>{
       await orderData.populate('userId')
  res.render('adminViewOrder',{
   order:orderData,
-  // layout: '../views/layout/adminLayout.ejs',
  })
   } catch (error) {
     console.log(error.message);
   }
 }
+
+// Sales report............................
 
 const salesReport = async(req,res)=>{
   try {
@@ -543,6 +492,20 @@ const salesReport = async(req,res)=>{
   } catch (error) {
     console.log(error.message);
   } 
+}
+
+// Admin logout...........................
+
+const adminLogout = async (req, res) => {
+  try {
+    adminSession = req.session
+    adminSession.adminId = null
+    isAdminLoggedin = false
+    console.log('admin logged out')
+    res.redirect('/admin')
+  } catch (error) {
+    console.log(error.message)
+  }
 }
 
 

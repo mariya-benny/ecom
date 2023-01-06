@@ -12,12 +12,11 @@ const fast2sms = require('fast-two-sms')
 const Razorpay = require('razorpay')
 const cors = require('cors')
 
-// const session = require('express-session')
 const { ObjectID } = require('bson')
 
 let isLoggedin
 isLoggedin = false
-// let userSession = false || {}
+
 
 const offer = {
   name: 'None',
@@ -101,7 +100,7 @@ const insertuser = async (req, res) => {
       mobile: req.body.mno,
       password: spassword,
       is_admin: 0,
-      // is_verified: 1
+     
     })
     const userData = await user.save()
     newUser = userData._id
@@ -366,7 +365,6 @@ const loadShop = async (req, res) => {
 
     const categoryData = await Category.find({is_active: 1})
     const ID = req.query.id
-    // console.log(categoryData)
     const data = await Category.findOne({ _id: ID })
 
     if (data) {
@@ -382,7 +380,6 @@ const loadShop = async (req, res) => {
         next: new Number(page) + 1
       })
     } else {
-      // const productData = await Product.find()
       res.render('shop', {
         isLoggedin,
         cat: categoryData,
@@ -533,8 +530,6 @@ const addToWishlist = async (req, res) => {
   try {
     userSession = req.session
     const productId = req.query.id
-
-    // console.log(userSession.userId)
     if (userSession.userId) {
       const userData = await User.findById({ _id: userSession.userId })
       const productData = await Product.findById({ _id: productId })
